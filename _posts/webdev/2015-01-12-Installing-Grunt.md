@@ -61,7 +61,9 @@ module.exports = function(grunt) {
 };
 {% endhighlight %}
 
-The line which loads the compass task is <pre>grunt.loadNpmTasks('grunt-contrib-compass');</pre>
+The line which loads the compass task is:
+
+  grunt.loadNpmTasks('grunt-contrib-compass');
 
 We still need to add the config for compass to the Gruntfile.js file:
 
