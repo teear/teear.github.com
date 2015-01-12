@@ -14,7 +14,7 @@ image:
 
 Installing Grunt for a project
 ------------------------------
--Node.js must be installed, you can find it from [http://nodejs.org/](http://nodejs.org/) ([http://nodejs.org/download/](http://nodejs.org/download/))
+-Node.js must be installed, you can find it from [http://nodejs.org/download/](http://nodejs.org/download/)
 
 -Add a package.json file to your project folder
 
@@ -63,7 +63,7 @@ module.exports = function(grunt) {
 
 The line which loads the compass task is:
 
-  grunt.loadNpmTasks('grunt-contrib-compass');
+        grunt.loadNpmTasks('grunt-contrib-compass');
 
 We still need to add the config for compass to the Gruntfile.js file:
 
