@@ -16,8 +16,7 @@ Installing Grunt for a project
 
 -Add a package.json file to your project folder
 
-<code>
-<pre>
+{% highlight javascript %}
 {
   "name": "foxtrotlima",
   "version": "0.1.0",
@@ -25,8 +24,7 @@ Installing Grunt for a project
     "grunt": "~0.4.5"
   }
 }
-</pre>
-</code>
+{% endhighlight %}
 
 -Run <kbd>npm install</kbd> from command line
 
