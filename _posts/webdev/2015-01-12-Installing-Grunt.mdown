@@ -1,4 +1,7 @@
-text:
+---
+layout: article
+title: Installing Grunt
+---
 # Grunt
 
 ## Installing Grunt for a project
