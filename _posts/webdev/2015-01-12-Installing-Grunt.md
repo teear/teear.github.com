@@ -118,8 +118,8 @@ grunt.loadNpmTasks('grunt-autoprefixer');
 
 ## Updating
 
-### Nodejs
-Nodejs installers: <http://nodejs.org/download/>
+### Node.js
+Node.js installers: <http://nodejs.org/download/>
 Or updating only npm: npm install npm -g
 
 ###Local Packages
