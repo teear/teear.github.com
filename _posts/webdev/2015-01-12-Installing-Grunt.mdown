@@ -2,9 +2,9 @@
 layout: article
 title: Installing Grunt
 ---
-## Grunt
 
-## Installing Grunt for a project
+Installing Grunt for a project
+------------------------------
 
 -Node.js must be installed, you can find it from <http://nodejs.org/> (<http://nodejs.org/download/>)
 
@@ -26,7 +26,8 @@ title: Installing Grunt
 
 -Install Grunt CLI (command line interface) with <kbd>npm install -g grunt-cli</kbd>
 
-## Lets install compass
+Lets install compass
+--------------------
 
 For this to work Ruby, Sass, and Compass has to be installed already.
 
