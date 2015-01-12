@@ -1,0 +1,118 @@
+text:
+# Grunt
+
+## Installing Grunt for a project
+
+-Node.js must be installed, you can find it from <http://nodejs.org/> (<http://nodejs.org/download/>)
+
+-Add a package.json file to your project folder
+
+<pre>
+{
+  "name": "foxtrotlima",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "~0.4.5"
+  }
+}
+</pre>
+
+-Run <kbd>npm install</kbd> from command line
+
+-Install Grunt CLI (command line interface) with <kbd>npm install -g grunt-cli</kbd>
+
+## Lets install compass
+
+For this to work Ruby, Sass, and Compass has to be installed already.
+
+-Run <kbd>npm install grunt-contrib-compass --save-dev</kbd> (--save-dev updates package.json automatically with the new dependency)
+-Create a Gruntfile.js with the following contents
+
+<pre>
+module.exports = function(grunt) {
+
+    // 1. All configuration goes here
+    grunt.initConfig({
+        pkg: grunt.file.readJSON('package.json'),
+
+        concat: {
+            // 2. Configuration for concatinating files goes here.
+        }
+
+    });
+
+    // 3. Where we tell Grunt we plan to use this plug-in.
+    grunt.loadNpmTasks('grunt-contrib-compass');
+
+    // 4. Where we tell Grunt what to do when we type "grunt" into the terminal.
+    grunt.registerTask('default', ['compass']);
+
+};
+</pre>
+
+The line which loads the compass task is <pre>grunt.loadNpmTasks('grunt-contrib-compass');</pre>
+
+We still need to add the config for compass to the Gruntfile.js file:
+
+<pre>
+compass: {                  // Task
+    dist: {                   // Target
+      options: {              // Target options
+        sassDir: 'scss',
+        cssDir: 'css',
+        environment: 'production'
+      }
+    },
+    dev: {                    // Another target
+      options: {
+        sassDir: 'scss',
+        cssDir: 'css'
+      }
+    }
+  }
+</pre>
+
+You can find all the config options at <https://www.npmjs.org/package/grunt-contrib-compass>
+
+
+## Installing Autoprefixer
+
+npm install grunt-autoprefixer --save-dev
+
+Gruntfile.js
+
+autoprefixer: {
+        options: {
+          browsers: [
+            'last 2 versions',
+            'Explorer >= 9',
+            'Android >= 3'
+          ]
+        },
+        dist: {
+          src: 'foxtrotlima.css'
+        }
+      },
+
+watch: {
+            styles: {
+                files: ['foxtrotlima.css'],
+                tasks: ['autoprefixer']
+            }
+        }
+
+grunt.loadNpmTasks('grunt-autoprefixer');
+
+## Updating
+
+Nodejs installers: <http://nodejs.org/download/>
+Or updating only npm: npm install npm -g
+
+Updating local packages: Use <kbd>npm update</kbd> in the folder where your package.json file is,
+this will update the packages to the wanted versions as indicated in your package.json.
+
+Updating the packages to the latest versions: Use <kbd>npm install -g npm-check-updates</kbd> to install npm-check-updates (<http://www.npmjs.com/package/npm-check-updates>)
+Run <kbd>npm-check-updates</kbd> and you can see what can be updated, for global packages use <kbd>npm-check-updates -g</kbd>.
+The updates to package.json can be done with <kbd>npm-check-updates -u</kbd>
+Finally use <kbd>npm update</kbd> to do the install.
+----
