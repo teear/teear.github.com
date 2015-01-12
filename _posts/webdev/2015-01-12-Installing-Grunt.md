@@ -9,9 +9,6 @@ image:
   creditlink: http://gruntjs.com #url to their site or licensing
 ---
 
-{{ page.title }}
-================
-
 Installing Grunt for a project
 ------------------------------
 -Node.js must be installed, you can find it from [http://nodejs.org/download/](http://nodejs.org/download/)
@@ -37,6 +34,7 @@ Lets install compass
 For this to work Ruby, Sass, and Compass has to be installed already.
 
 -Run <kbd>npm install grunt-contrib-compass --save-dev</kbd> (--save-dev updates package.json automatically with the new dependency)
+
 -Create a Gruntfile.js with the following contents
 
 {% highlight javascript %}
@@ -120,12 +118,15 @@ grunt.loadNpmTasks('grunt-autoprefixer');
 
 ## Updating
 
+### Nodejs
 Nodejs installers: <http://nodejs.org/download/>
 Or updating only npm: npm install npm -g
 
+###Local Packages
 Updating local packages: Use <kbd>npm update</kbd> in the folder where your package.json file is,
 this will update the packages to the wanted versions as indicated in your package.json.
 
+###Packages to the Latest Versions
 Updating the packages to the latest versions: Use <kbd>npm install -g npm-check-updates</kbd> to install npm-check-updates (<http://www.npmjs.com/package/npm-check-updates>)
 Run <kbd>npm-check-updates</kbd> and you can see what can be updated, for global packages use <kbd>npm-check-updates -g</kbd>.
 The updates to package.json can be done with <kbd>npm-check-updates -u</kbd>
