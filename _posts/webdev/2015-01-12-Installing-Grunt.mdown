@@ -38,8 +38,7 @@ For this to work Ruby, Sass, and Compass has to be installed already.
 -Run <kbd>npm install grunt-contrib-compass --save-dev</kbd> (--save-dev updates package.json automatically with the new dependency)
 -Create a Gruntfile.js with the following contents
 
-<code>
-<pre>
+{% highlight javascript %}
 module.exports = function(grunt) {
 
     // 1. All configuration goes here
@@ -59,15 +58,13 @@ module.exports = function(grunt) {
     grunt.registerTask('default', ['compass']);
 
 };
-</pre>
-</code>
+{% endhighlight %}
 
 The line which loads the compass task is <pre>grunt.loadNpmTasks('grunt-contrib-compass');</pre>
 
 We still need to add the config for compass to the Gruntfile.js file:
 
-<code>
-<pre>
+{% highlight javascript %}
 compass: {                  // Task
     dist: {                   // Target
       options: {              // Target options
@@ -83,8 +80,7 @@ compass: {                  // Task
       }
     }
   }
-</pre>
-</code>
+{% endhighlight %}
 
 You can find all the config options at <https://www.npmjs.org/package/grunt-contrib-compass>
 
@@ -95,8 +91,7 @@ npm install grunt-autoprefixer --save-dev
 
 Gruntfile.js
 
-<code>
-<pre>
+{% highlight javascript %}
 autoprefixer: {
         options: {
           browsers: [
@@ -118,8 +113,7 @@ watch: {
         }
 
 grunt.loadNpmTasks('grunt-autoprefixer');
-</pre>
-</code>
+{% endhighlight %}
 
 ## Updating
 
