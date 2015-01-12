@@ -2,7 +2,7 @@
 layout: article
 title: Installing Grunt
 ---
-# Grunt
+## Grunt
 
 ## Installing Grunt for a project
 
@@ -10,6 +10,7 @@ title: Installing Grunt
 
 -Add a package.json file to your project folder
 
+<code>
 <pre>
 {
   "name": "foxtrotlima",
@@ -19,6 +20,7 @@ title: Installing Grunt
   }
 }
 </pre>
+</code>
 
 -Run <kbd>npm install</kbd> from command line
 
@@ -31,6 +33,7 @@ For this to work Ruby, Sass, and Compass has to be installed already.
 -Run <kbd>npm install grunt-contrib-compass --save-dev</kbd> (--save-dev updates package.json automatically with the new dependency)
 -Create a Gruntfile.js with the following contents
 
+<code>
 <pre>
 module.exports = function(grunt) {
 
@@ -52,11 +55,13 @@ module.exports = function(grunt) {
 
 };
 </pre>
+</code>
 
 The line which loads the compass task is <pre>grunt.loadNpmTasks('grunt-contrib-compass');</pre>
 
 We still need to add the config for compass to the Gruntfile.js file:
 
+<code>
 <pre>
 compass: {                  // Task
     dist: {                   // Target
@@ -74,6 +79,7 @@ compass: {                  // Task
     }
   }
 </pre>
+</code>
 
 You can find all the config options at <https://www.npmjs.org/package/grunt-contrib-compass>
 
@@ -84,6 +90,8 @@ npm install grunt-autoprefixer --save-dev
 
 Gruntfile.js
 
+<code>
+<pre>
 autoprefixer: {
         options: {
           browsers: [
@@ -105,6 +113,8 @@ watch: {
         }
 
 grunt.loadNpmTasks('grunt-autoprefixer');
+</pre>
+</code>
 
 ## Updating
 
