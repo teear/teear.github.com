@@ -128,7 +128,10 @@ this will update the packages to the wanted versions as indicated in your packag
 
 ###Packages to the Latest Versions
 Updating the packages to the latest versions: Use <kbd>npm install -g npm-check-updates</kbd> to install npm-check-updates (<http://www.npmjs.com/package/npm-check-updates>)
+
 Run <kbd>npm-check-updates</kbd> and you can see what can be updated, for global packages use <kbd>npm-check-updates -g</kbd>.
+
 The updates to package.json can be done with <kbd>npm-check-updates -u</kbd>
+
 Finally use <kbd>npm update</kbd> to do the install.
 ----
