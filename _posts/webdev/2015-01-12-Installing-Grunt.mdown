@@ -1,6 +1,11 @@
 ---
 layout: article
 title: Installing Grunt
+
+image:
+  feature: grunt.png
+  credit: Grunt #name of the person or site you want to credit
+  creditlink: http://gruntjs.com #url to their site or licensing
 ---
 
 Installing Grunt for a project
