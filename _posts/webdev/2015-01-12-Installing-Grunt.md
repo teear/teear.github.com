@@ -14,7 +14,7 @@ image:
 
 Installing Grunt for a project
 ------------------------------
--Node.js must be installed, you can find it from [http://nodejs.org/](http://nodejs.org/) [http://nodejs.org/download/](http://nodejs.org/download/)
+-Node.js must be installed, you can find it from [http://nodejs.org/](http://nodejs.org/) ([http://nodejs.org/download/](http://nodejs.org/download/))
 
 -Add a package.json file to your project folder
 
