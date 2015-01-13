@@ -134,4 +134,3 @@ Run <kbd>npm-check-updates</kbd> and you can see what can be updated, for global
 The updates to package.json can be done with <kbd>npm-check-updates -u</kbd>
 
 Finally use <kbd>npm update</kbd> to do the install.
-----
