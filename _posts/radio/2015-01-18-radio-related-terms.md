@@ -96,7 +96,7 @@ Example of a long-path or possible backscatter and backscatter from the same sta
     <tr><td>Gamma-match</td><td></td></tr>
     <tr><td>GMT</td><td>Greenwich Mean Time &ndash; nowadays <a href="#utc">UTC</a> is used instead of GMT</td></tr>
     <tr><td>GP</td><td>Ground plane</td></tr>
-    <tr><td>Grey line</td>A terminator, twilight zone or &ldquo;grey line&rdquo; is a moving line that separates the illuminated day side and the dark night side of a planetary body.
+    <tr><td>Grey line</td><td>A terminator, twilight zone or &ldquo;grey line&rdquo; is a moving line that separates the illuminated day side and the dark night side of a planetary body.
     Radio operators take advantage of conditions at the terminator (so-called "grey line" conditions) to perform long distance communications. Under good conditions, radio waves can travel along the terminator to antipodal points. This is primarily because the D layer, which absorbs high frequency signals, disappears rapidly on the dark side of the terminator line. This process is known as skywave propagation. (<a href="http://en.wikipedia.org/wiki/Terminator_%28solar%29">Wikipedia: Terminator (solar)</a>)</td></tr>
     <tr><td>Green stamp</td><td>1 USD</td></tr>
     <tr><td>Groundwave</td><td><!-- the radio related term and the magazine --></td></tr>
