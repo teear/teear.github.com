@@ -3,7 +3,7 @@ title: Some Radio Related Terms
 layout: article
 
 image:
-  teaser: tw232dx.jpg
+  teaser: tw232dx-teaser.jpg
   feature: tw232dx.jpg
   credit: teear
   creditlink: http://teear.github.io
