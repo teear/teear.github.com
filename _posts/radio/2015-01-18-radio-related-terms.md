@@ -9,8 +9,6 @@ image:
   creditlink: http://teear.github.io
 ---
 
-Some Radio Related Terms
-------------------------
 
 <table>
 <thead>
