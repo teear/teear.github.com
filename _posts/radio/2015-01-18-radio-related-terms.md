@@ -128,7 +128,8 @@ To find out your own locator you need to know the coordinates of your QTH and us
     <tr><td>Multi operator</td><td>Station with multiple operators under one callsign, in contests there is sometimes stations working as multi.</td></tr>
     <tr><td>Multipath</td><td></td></tr>
     <tr><td>Omnidirectional</td><td>Antenna which radiates radio wave power uniformly in all directions in one plane. Some examples of omnidirectional antennas are the vertical dipole, the GP and a 5/8 wave antenna.</td></tr>
-    <!-- Opening, Operator -->
+    <tr><td>Opening</td><td>When the propagation opens to some part of the world, we are talking about an opening</td></tr>
+    <tr><td>Operator</td><td>The person operating a radio station</td></tr>
     <tr><td>PL-259</td><td>Male UHF-connector (see also <a href="pl-259-install.php">Installing PL-259 Plugs Properly</a>)</td></tr>
     <tr><td>Pileup</td><td>Many 11m operators trying to get through to the same station at the same time, this might be a DX-pedition or an otherwise
         interesting station. In a pileup you repeat your callsign or only your unit number until the DX station gives you a
@@ -138,7 +139,7 @@ To find out your own locator you need to know the coordinates of your QTH and us
     <tr><td>Portable /P</td><td>Portable stations are stations in the field using battery power and non-fixed antennas.</td></tr>
     <tr><td>Preamp</td><td></td></tr>
     <tr><td>Progressive number</td><td>A running number given by a DX-pedition, pedition or SES-operator that you must confirm and mark on the QSL-card when sending the card to the QSL-manager.
-        Progressive numbers are used in contests as well. Nowadays many DX-peditions and activations do not give you a progressive number, they just tell you your in the log.</td></tr>
+        Progressive numbers are used in contests as well. Nowadays many DX-peditions and activations do not give you a progressive number, they just tell you you&rsquo;re in the log.</td></tr>
     <tr><td>Proofs</td><td>Proof that the activity really took place in the location that the DX claims/claimed to be in. Proofs can be copies of plane or ship/ferry tickets, a direct QSL card received from the location,
         video, pictures etc. <a href="http://www.dxproof.com/">http://www.dxproof.com/</a> is one site presenting 11m DX proofs.</td></tr>
     <tr><td>Propagation</td><td></td></tr>
@@ -163,9 +164,8 @@ To find out your own locator you need to know the coordinates of your QTH and us
     <tr><td>SAE</td><td>Self-addressed envelope</td></tr>
     <tr><td>SASE</td><td>Self-addressed stamped envelope</td></tr>
     <tr><td>SES</td><td>Special event station</td></tr>
-    <!--
-    <tr><td>Simplex</td><td>.. Sometimes used in cluster DX spots to indicate that the DX is not working in Split mode</td></tr><tr>
-    -->
+    <tr><td>Simplex</td><td>Simplex communication is a communication channel that sends information in one direction only. All traffic in 11 meters is in simplex.<br>
+    Sometimes the term simplex is used in cluster DX spots to indicate that the DX is not working in Split mode.</td></tr><tr>
     <td>Sked</td><td>Pre-arranged QSO at some date/time</td></tr>
  <tr><td>Skip</td><td></td></tr>
  <tr><td>Skypper</td><td>Spiderbeam for 11m band. Spiderbeam is a modified Yagi antenna made from wire. In Spiderbeam the director and reflector elements are bent towards the feeder element.</td></tr>
@@ -200,8 +200,8 @@ Solar-Flux-Indeksi...auringon aktiivisuuden taso (mitattuna 2.8 GHz(10.7 cm)
         about the contribution you should send, it's best to look for the info on the Internet or send $2.</td></tr>
     <!--
     Static (noise)
-    Static mobile
--->
+    -->
+    <tr><td>Static mobile</td><td>A mobile station that is not moving</td></tr>
     <tr><td>Sunspot</td><td></td></tr>
     <tr><td>SWR</td><td>Standing wave ratio</td></tr>
     <tr><td>Take-off angle</td><td></td></tr>
