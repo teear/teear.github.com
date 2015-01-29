@@ -97,9 +97,10 @@ Example of a long-path or possible backscatter and backscatter from the same sta
     <tr><td>Grey line</td><td>A terminator, twilight zone or &ldquo;grey line&rdquo; is a moving line that separates the illuminated day side and the dark night side of a planetary body.
     Radio operators take advantage of conditions at the terminator (so-called &ldquo;grey line&rdquo; conditions) to perform long distance communications. Under good conditions, radio waves can travel along the terminator to antipodal points. This is primarily because the D layer, which absorbs high frequency signals, disappears rapidly on the dark side of the terminator line. This process is known as skywave propagation. (<a href="http://en.wikipedia.org/wiki/Terminator_%28solar%29">Wikipedia: Terminator (solar)</a>)</td></tr>
     <tr><td>Green stamp</td><td>1 USD</td></tr>
-    <tr><td>Groundwave</td><td><!-- the radio related term and the magazine --></td></tr>
+    <tr><td>Ground wave</td><td><!-- the radio related term and the magazine --></td></tr>
     <tr><td>Groundwave (magazine)</td><td>Groundwave used to be a printed monthly publication from UK with the latest 11m DX news in the 90's.</td></tr>
     <tr><td>Half-wave antenna</td><td></td></tr>
+    <!-- Harmonic -->
     <tr><td>HF</td><td>High frequency &ndash; range of radio frequencies between 3 and 30 MHz</td></tr>
     <tr><td>HI</td><td>Laughter in telegraphy</td></tr>
     <tr><td>Horizontal</td><td></td></tr>
@@ -111,6 +112,7 @@ Example of a long-path or possible backscatter and backscatter from the same sta
     <tr><td>K-index</td><td></td></tr>
     <tr><td>Lambda</td><td>See <a href="#wavelength">wavelength</a></td></tr>
     <tr><td>Letter contest</td><td></td></tr>
+    <!-- Loading coil -->
     <tr><td>Locator</td><td>Maidenhead locator is a simple way to tell your location on the radio. QTH locators normally consist of a combination of six letters and numbers. e.g. KP03RF.
 This six character combination is simple and quick to relay over the radio. See <a href="http://www.sarl.org.za/public/QRA/Abt_Locators.asp">http://www.sarl.org.za/public/QRA/Abt_Locators.asp</a><br>
 To find out your own locator you need to know the coordinates of your QTH and use a program to calculate the locator or you can use the F6FVY QTH locator map: <a href="http://qthlocator.free.fr/index.php">http://qthlocator.free.fr/index.php</a>.</td></tr>
@@ -135,6 +137,7 @@ To find out your own locator you need to know the coordinates of your QTH and us
         interesting station. In a pileup you repeat your callsign or only your unit number until the DX station gives you a
         permission to go ahead and make the QSO with him (or her). <!--Sometimes DX-peditions work <a href="#split">split</a> step by step listening to a certain
      frequency range (where the callers can use any of these frequencies) instead of one listening frequency to manage the pileup.--></td></tr>
+    <!-- Pilot station -->
     <tr><td>Polarization</td><td></td></tr>
     <tr><td>Portable /P</td><td>Portable stations are stations in the field using battery power and non-fixed antennas.</td></tr>
     <tr><td>Preamp</td><td></td></tr>
@@ -159,16 +162,18 @@ To find out your own locator you need to know the coordinates of your QTH and us
     <!-- RIG -->
     <tr><td id="rit">RIT</td><td>Receiver Incremental Tuning &ndash; A way to offset your receive frequency incrementally from the transmit frequency. Useful when the other station your talking to is slightly off frequency; you can use RIT to adjust only your receive frequency to hear the other station clearly. See also <a href="#xit">XIT</a></td></tr>
     <tr><td>Roger</td><td>R, Message confirmed</td></tr>
+    <tr><td>ROS</td><td></td></tr>
     <tr><td>Rotator</td><td></td></tr>
     <tr><td>RX</td><td>Radio receiver, receive</td></tr>
     <tr><td>SAE</td><td>Self-addressed envelope</td></tr>
     <tr><td>SASE</td><td>Self-addressed stamped envelope</td></tr>
     <tr><td>SES</td><td>Special event station</td></tr>
-    <tr><td>Simplex</td><td>Simplex communication is a communication channel that sends information in one direction only. All traffic in 11 meters is in simplex.<br>
+    <tr><td>Simplex</td><td>Simplex communication is a communication channel that sends information in one direction at a time only. All traffic in 11 meters is in simplex.<br>
     Sometimes the term simplex is used in cluster DX spots to indicate that the DX is not working in Split mode.</td></tr><tr>
     <td>Sked</td><td>Pre-arranged QSO at some date/time</td></tr>
  <tr><td>Skip</td><td></td></tr>
  <tr><td>Skypper</td><td>Spiderbeam for 11m band. Spiderbeam is a modified Yagi antenna made from wire. In Spiderbeam the director and reflector elements are bent towards the feeder element.</td></tr>
+ <tr><td>Sky wave</td><td></td></tr>
  <!-- Slim Jim -->
  <tr><td>SO-239</td><td>Female UHF-connector</td></tr>
  <tr><td>Solar Flux Index</td><td>Solar Flux Index (SFI) is a measure of solar activity (radiation of the sun measured on 2.8 GHz (10.7 cm) frequency).
@@ -216,6 +221,7 @@ Solar-Flux-Indeksi...auringon aktiivisuuden taso (mitattuna 2.8 GHz(10.7 cm)
     <tr><td>WX</td><td>&ldquo;double-u x&rdquo;, the weather</td></tr>
     <tr><td id="xit">XIT</td><td>Transmitter Incremental Tuning &ndash; A way to offset the transmit frequency incrementally from the receive frequency.</td></tr>
     <tr><td>XYL</td><td>Ex Young Lady (wife)</td></tr>
+    <!-- Yagi -->
     <tr><td>YL</td><td>Young Lady &ndash; A female operator</td></tr>
 </tbody>
 </table>
