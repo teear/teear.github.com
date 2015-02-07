@@ -207,6 +207,7 @@ Solar-Flux-Indeksi...auringon aktiivisuuden taso (mitattuna 2.8 GHz(10.7 cm)
     Static (noise)
     -->
     <tr><td>Static mobile</td><td>A mobile station that is not moving</td></tr>
+    <tr><td>Static rain</td><td>Water, snow or sleet rain, where the particles falling from the sky are electrically charged.</td></tr>
     <tr><td>Sunspot</td><td></td></tr>
     <tr><td>SWR</td><td>Standing wave ratio</td></tr>
     <tr><td>Take-off angle</td><td></td></tr>
