@@ -158,6 +158,7 @@ To find out your own locator you need to know the coordinates of your QTH and us
     <!-- <tr><td>Radio shack</td><td></td></tr> -->
     <tr><td>Reflector</td><td></td></tr>
     <tr><td>RF</td><td>Radio frequency</td></tr>
+    <tr><td>RF Gain</td><td>See: <a href="https://www.youtube.com/watch?v=vdcru1EKVVU">How To Use Your RF Gain Control</a> (Video by Ten-Tec, Inc)</td></tr>
     <tr><td>RFI</td><td>Radio frequency interference</td></tr>
     <!-- RIG -->
     <tr><td id="rit">RIT</td><td>Receiver Incremental Tuning &ndash; A way to offset your receive frequency incrementally from the transmit frequency. Useful when the other station your talking to is slightly off frequency; you can use RIT to adjust only your receive frequency to hear the other station clearly. See also <a href="#xit">XIT</a></td></tr>
