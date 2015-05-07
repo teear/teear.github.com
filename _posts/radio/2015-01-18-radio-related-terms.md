@@ -44,6 +44,8 @@ Example of a long-path or possible backscatter and backscatter from the same sta
     </td></tr>
     <tr><td>Balun</td><td></td></tr>
     <tr><td>Band</td><td>Range of frequencies</td></tr>
+    <tr><td>Bandwidth</td><td>The available space between two given points on the electromagnetic spectrum and the amount of information that can be squeezed into that space.</td></tr>
+
     <!--
     bandwidth
     The available space between two given points on the electromagnetic spectrum and, inter alia, the amount of information that can be squeezed into that space.
@@ -81,7 +83,8 @@ Example of a long-path or possible backscatter and backscatter from the same sta
     <!--
     feedback: A loud noise, squeal, or howl from a microphone or speaker, caused by improper placement, circuit noise, accidental closing of the circuit, or another error or problem.
 -->
- <tr><td>Feedline</td><td></td></tr>
+    <tr><td>Feedline (Transmission line)</td><td>The coaxial cable or wire(s) that carry RF power from transmitter to antenna, and
+        received signals from antenna to reveiver.</td></tr>
     <tr><td>Feedpoint</td><td>Part of the antenna where the feedline (most often a coaxial cable) is connected. The reported height of an antenna
         is the height from ground or sea level to the feedpoint.</td></tr>
 <!--
