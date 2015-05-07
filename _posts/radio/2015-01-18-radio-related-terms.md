@@ -159,7 +159,8 @@ To find out your own locator you need to know the coordinates of your QTH and us
     <tr><td>QSL manager</td><td>Person that handles the QSL cards of a station or activity. Normally a contribution for the post costs is required.</td></tr>
     <tr><td>QSY</td><td>Change of frequency (e.g. QSY to 27.625)</td></tr>
     <!-- <tr><td>Radio shack</td><td></td></tr> -->
-    <tr><td>Reflector</td><td></td></tr>
+    <tr><td>Reflector</td><td>Element behind the driven element in a beam antenna. It reradiates a portion of the
+        transmitted energy forward through the driven element.</td></tr>
     <tr><td>RF</td><td>Radio frequency</td></tr>
     <tr><td>RF gain</td><td>Controls the receive sensitivity of the transceiver. See: <a href="https://www.youtube.com/watch?v=vdcru1EKVVU">How To Use Your RF Gain Control</a> (Video by Ten-Tec, Inc)</td></tr>
     <tr><td>RFI</td><td>Radio frequency interference</td></tr>
