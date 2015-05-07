@@ -121,7 +121,7 @@ This six character combination is simple and quick to relay over the radio. See 
 To find out your own locator you need to know the coordinates of your QTH and use a program to calculate the locator or you can use the F6FVY QTH locator map: <a href="http://qthlocator.free.fr/index.php">http://qthlocator.free.fr/index.php</a>.</td></tr>
     <tr><td>Loop</td><td>Loop is a closed antenna type, that can be for example a circle, quad or delta in shape and usually it is one wavelength long. In a Quad antenna the feeder element and the parasitic elements are loops.</td></tr>
     <tr><td>LOTA</td><td>Lighthouse on the air</td></tr>
-    <tr><td>Low-pass filter, LPF</td><td></td></tr>
+    <tr><td>Low-pass filter, LPF</td>A circuit which permits frequencies below a chosen frequency to pass and blocks frequencies above the chosen frequency.<td></td></tr>
     <tr><td>LP, Long-path</td><td>QSO via longer route around the world to your destination station</td></tr>
     <!--
     <tr><td>LSB</td><td></td></tr>
