@@ -65,9 +65,10 @@ Example of a long-path or possible backscatter and backscatter from the same sta
     <tr><td>CQ</td><td>&ldquo;Seek you&rdquo;, general call. When making a call targeted to some area of the world the area is added after the CQ (CQ USA, CQ Scandinavia).
         If you wish to target only stations in a certain country the country name is added after the CQ, for example: CQ Finland. When looking for any station in any part of the world
         you can just call CQ or CQ 11, if looking only for DX-stations (see <a href="#dx">DX</a> below) you can call CQ DX.</td></tr>
+        <tr><td>Delta loop</td><td>Triangle shaped <a href="#loop">loop antenna</a></td></tr>
     <tr><td>Digital modes</td><td>General term for digital transmission modes such as PSK31, RTTY etc.</td></tr>
     <tr><td>Dipole</td><td></td></tr>
-    <tr><td>Director</td><td>In an antenna&hellip; &ndash; In a DX group&hellip;</td></tr>
+    <tr><td>Director</td><td>In an antenna: a parasitic element that focuses the radiated signal to the forward direction &hellip; &ndash; In a DX group&hellip;</td></tr>
     <tr><td id="dx">DX</td><td>Distant X, distant unknown &ndash; on 11m contacts to other continents and possibly to some rare DXCCs in your own continent.</td></tr>
     <tr><td>DX-pedition</td><td>Expedition to a country or an island which is wanted on 11m band because there is no operators active there or not many.</td></tr>
 
@@ -77,7 +78,7 @@ Example of a long-path or possible backscatter and backscatter from the same sta
 -->
     <tr><td>E-QSL</td><td>Electronic QSL, a <a href="#qsl">QSL card</a> in digital form (could be an image or a PDF-file) sent via e-mail or via some e-qsl service to the receiver.</td></tr>
 <!--
-    ERP
+    <tr><td>ERP</td></tr>
 -->
     <tr><td>Feeder</td><td></td></tr>
     <!--
@@ -87,11 +88,7 @@ Example of a long-path or possible backscatter and backscatter from the same sta
         received signals from antenna to reveiver.</td></tr>
     <tr><td>Feedpoint</td><td>Part of the antenna where the feedline (most often a coaxial cable) is connected. The reported height of an antenna
         is the height from ground or sea level to the feedpoint.</td></tr>
-<!--
-    <tr><th scope="row">Syöttöpiste</th><td>Kohta antennia johon syöttölinja (yleensä koaksiaalikaapeli) kytketään. Antennin
-            ilmoitettu korkeus maan tai merenpinnasta on korkeus syöttöpisteeseen asti.</td></tr>
--->
- <!-- <tr><td>Filter</td><td></td></tr> -->
+ <!-- <tr><td>Filter</td><td>A circuit that manipulates signals differently based on their frequency</td></tr> -->
  <!-- F-layer, FM -->
     <tr><td>Gain</td><td></td></tr>
     <tr><td>Gamma-match</td><td></td></tr>
@@ -119,7 +116,7 @@ Example of a long-path or possible backscatter and backscatter from the same sta
     <tr><td>Locator</td><td>Maidenhead locator is a simple way to tell your location on the radio. QTH locators normally consist of a combination of six letters and numbers. e.g. KP03RF.
 This six character combination is simple and quick to relay over the radio. See <a href="http://www.sarl.org.za/public/QRA/Abt_Locators.asp">http://www.sarl.org.za/public/QRA/Abt_Locators.asp</a><br>
 To find out your own locator you need to know the coordinates of your QTH and use a program to calculate the locator or you can use the F6FVY QTH locator map: <a href="http://qthlocator.free.fr/index.php">http://qthlocator.free.fr/index.php</a>.</td></tr>
-    <tr><td>Loop</td><td>Loop is a closed antenna type, that can be for example a circle, quad or delta in shape and usually it is one wavelength long. In a Quad antenna the feeder element and the parasitic elements are loops.</td></tr>
+    <tr><td id="loop">Loop</td><td>Loop is a closed antenna type, that can be for example a circle, quad or delta in shape and usually it is one wavelength long. In a Quad antenna the feeder element and the parasitic elements are loops.</td></tr>
     <tr><td>LOTA</td><td>Lighthouse on the air</td></tr>
     <tr><td>Low-pass filter, LPF</td><td>A circuit which permits frequencies below a chosen frequency to pass and blocks frequencies above the chosen frequency.</td></tr>
     <tr><td>LP, Long-path</td><td>QSO via longer route around the world to your destination station</td></tr>
