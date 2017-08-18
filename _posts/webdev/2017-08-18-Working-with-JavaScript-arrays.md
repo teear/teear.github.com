@@ -9,34 +9,36 @@ image:
   creditlink: https://pixabay.com/ #url to their site or licensing
 ---
 
-Working with JavaScript arrays
-==============================
-
 Creating an array
 -----------------
 
 Using the constructor syntax:
 
 {% highlight javascript %}
-let arr = new Array(); //empty array []
+let arr = new Array(); // empty array []
 let arr = new Array("Joe", "Bob"); // ["Joe", "Bob"]
-let arr = new Array(2); //array with two elements [undefined, undefined]
+let arr = new Array(2); // array with two elements [undefined, undefined]
 {% endhighlight %}
 
 Using the array literal syntax:
 
 {% highlight javascript %}
 let arr = []; //empty array []
-let arr = ["one", "two", "three"];
+let arr = ["one", "two", "three"]; // ["one", "two", "three"]
 {% endhighlight %}
 
 Using Array.of():
 
 {% highlight javascript %}
-let arr = Array.of("Joe", "Bob");
+let arr = Array.of("Joe", "Bob"); // ["Joe", "Bob"]
 {% endhighlight %}
 
-##Accessing elements
 
+Accessing elements
+------------------
 
-
+{% highlight javascript %}
+let array = ["alfa", "bravo", "charlie"]
+let first = array[0]; // "alfa"
+let last = array[array.length - 1]; // "charlie"
+{% endhighlight %}
