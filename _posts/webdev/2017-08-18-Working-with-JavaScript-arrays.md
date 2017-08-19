@@ -33,6 +33,14 @@ Using Array.of():
 let arr = Array.of("Joe", "Bob"); // ["Joe", "Bob"]
 {% endhighlight %}
 
+Array.from() creates arrays from array-like objects (node lists, argument variable) and
+iterable objects (String, Array, TypedArray, Map and Set are built in iterables.).
+
+{% highlight javascript %}
+let s = new Set(['alfa', 'bravo']); 
+Array.from(s); //["alfa", "bravo"] 
+{% endhighlight %}
+
 
 Accessing elements
 ------------------
