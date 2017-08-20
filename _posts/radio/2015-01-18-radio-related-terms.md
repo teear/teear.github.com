@@ -15,6 +15,7 @@ image:
     <tr>
         <th scope="col">Term</th>
         <th scope="col">Explanation</th>
+    </tr>
 </thead>
 <tbody>
     <tr><td>73</td><td>Best regards (not 73s = best regardss)<br> More info on the expression 73: <a href="http://www.qsl.net/ae0q/73.htm">History of 73</a> &nbsp; <a href="http://www.delta-alfa.com/73-mate/">&ldquo;73 mate&rdquo;</a></td></tr>
@@ -62,6 +63,7 @@ Example of a long-path or possible backscatter and backscatter from the same sta
     <tr><td>Contest</td><td></td></tr>
     <tr><td>Compression</td><td>A process of automatic adjustment of variation in audio volume.</td></tr>
     <tr><td>COTA</td><td>Castles on the air</td></tr>
+    <tr><td>Critical Frequency</td><td></td></tr>
     <tr><td>CQ</td><td>&ldquo;Seek you&rdquo;, general call. When making a call targeted to some area of the world the area is added after the CQ (CQ USA, CQ Scandinavia).
         If you wish to target only stations in a certain country the country name is added after the CQ, for example: CQ Finland. When looking for any station in any part of the world
         you can just call CQ or CQ 11, if looking only for DX-stations (see <a href="#dx">DX</a> below) you can call CQ DX.</td></tr>
