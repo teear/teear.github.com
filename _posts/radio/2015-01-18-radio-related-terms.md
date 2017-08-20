@@ -105,6 +105,7 @@ Example of a long-path or possible backscatter and backscatter from the same sta
     <tr><td>HI</td><td>Laughter in telegraphy</td></tr>
     <tr><td>Horizontal</td><td></td></tr>
     <tr><td>Impedance</td><td></td></tr>
+    <tr><td>Ionosphere</td><td>The ionosphere is a region of Earth's upper atmosphere, from about 60 km (37 mi) to 1,000 km (620 mi) altitude. It is ionized by solar radiation and has an impact on propagation of radio waves.</td></tr>
     <tr><td>IOTA</td><td>Islands on the air</td></tr>
     <tr><td>IRC</td><td>International reply coupon, <a href="http://www.upu.int/en/activities/international-reply-coupons/">about IRCs</a></td></tr>
     <tr><td>IWI</td><td>Inland waterway island (inland islands in lakes, rivers etc.)</td></tr>
