@@ -127,6 +127,7 @@ To find out your own locator you need to know the coordinates of your QTH and us
     -->
     <tr><td>Mobile /M</td><td>Radio station in a vehicle, for example in a car (also vessels on inland waterways).</td></tr>
     <tr><td>Modulation</td><td></td></tr>
+    <tr><td>MUF</td><td>Maximum Usable Frequency</td></tr>
     <tr><td>Multi operator</td><td>Station with multiple operators under one callsign, in contests there is sometimes stations working as multi.</td></tr>
     <tr><td>Multipath</td><td></td></tr>
     <tr><td>Omnidirectional</td><td>Antenna which radiates radio wave power uniformly in all directions in one plane. Some examples of omnidirectional antennas are the vertical dipole, the GP and a 5/8 wave antenna.</td></tr>
