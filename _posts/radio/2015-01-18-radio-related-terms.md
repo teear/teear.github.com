@@ -36,7 +36,7 @@ image:
     <!--
     <tr><td>Award</td><td></td></tr>
  -->
-    <tr><td>Azimuth map</td><td>A map showing antenna directions from your QTH to different parts of the world. See <a href="azimuth-map.php">Using an Azimuth Map to Determine Antenna Direction</a></td></tr>
+    <tr><td>Azimuth map</td><td>A map showing antenna directions from your QTH to different parts of the world. See <a href="http://fldx.org/site/azimuth-map.php">Using an Azimuth Map to Determine Antenna Direction</a></td></tr>
     <tr><td>Backscatter</td><td>Backscatter happens when a signal is reflected from the ionosphere to the surface of the earth and back to the ionosphere and to the area the
 signal originated from. Backscatter usually requires good propagation and directional antennas.<br>
 <!--
