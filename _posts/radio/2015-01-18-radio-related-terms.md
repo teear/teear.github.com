@@ -136,7 +136,7 @@ To find out your own locator you need to know the coordinates of your QTH and us
     <tr><td>Omnidirectional</td><td>Antenna which radiates radio wave power uniformly in all directions in one plane. Some examples of omnidirectional antennas are the vertical dipole, the GP and a 5/8 wave antenna.</td></tr>
     <tr><td>Opening</td><td>When the propagation opens to some part of the world, we are talking about an opening</td></tr>
     <tr><td>Operator</td><td>The person operating a radio station</td></tr>
-    <tr><td>PL-259</td><td>Male UHF-connector (see also <a href="pl-259-install.php">Installing PL-259 Plugs Properly</a>)</td></tr>
+    <tr><td>PL-259</td><td>Male UHF-connector (see also <a href="http://fldx.org/site/pl-259-install.php">Installing PL-259 Plugs Properly</a>)</td></tr>
     <tr><td>Pileup</td><td>Many 11m operators trying to get through to the same station at the same time, this might be a DX-pedition or an otherwise
         interesting station. In a pileup you repeat your callsign or only your unit number until the DX station gives you a
         permission to go ahead and make the QSO with him (or her). <!--Sometimes DX-peditions work <a href="#split">split</a> step by step listening to a certain
