@@ -107,7 +107,7 @@ Example of a long-path or possible backscatter and backscatter from the same sta
     <tr><td>HI</td><td>Laughter in telegraphy</td></tr>
     <tr><td>Horizontal</td><td></td></tr>
     <tr><td>Impedance</td><td></td></tr>
-    <tr><td>Ionosphere</td><td>The ionosphere is a region of Earth's upper atmosphere, from about 60 km (37 mi) to 1,000 km (620 mi) altitude. It is ionized by solar radiation and has an impact on propagation of radio waves.</td></tr>
+    <tr><td id="ionosphere">Ionosphere</td><td>The ionosphere is a region of Earth's upper atmosphere, from about 60 km (37 mi) to 1,000 km (620 mi) altitude. It is ionized by solar radiation and has an impact on propagation of radio waves.</td></tr>
     <tr><td>IOTA</td><td>Islands on the air</td></tr>
     <tr><td>IRC</td><td>International reply coupon, <a href="http://www.upu.int/en/activities/international-reply-coupons/">about IRCs</a></td></tr>
     <tr><td>IWI</td><td>Inland waterway island (inland islands in lakes, rivers etc.)</td></tr>
@@ -214,7 +214,10 @@ Solar-Flux-Indeksi...auringon aktiivisuuden taso (mitattuna 2.8 GHz(10.7 cm)
     -->
     <tr><td>Static mobile</td><td>A mobile station that is not moving</td></tr>
     <tr><td>Static rain</td><td>Water, snow or sleet rain, where the particles falling from the sky are electrically charged.</td></tr>
-    <tr><td>Sunspot</td><td></td></tr>
+    <tr><td>Sunspot</td><td>Sunspots are dark spots on the surface of the sun. They are darker than the surrounding sun surface because their temperature is around 1500 &#8451; lower. Sunpots are caused by strong local magnetic fields. The number of sunspots varies in about 11 year cycles. There is more solar energy output when there is more sunspots and this increases ionization in the layers of the <a href="#ionosphere">ionosphere</a> here on earth.</td></tr>
+    <!--
+    Sunspot number
+    -->
     <tr><td>SWR</td><td>Standing wave ratio</td></tr>
     <tr><td>Take-off angle</td><td></td></tr>
     <tr><td>TVI</td><td>Television Interference</td></tr>
