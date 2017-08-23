@@ -59,7 +59,7 @@ Example of a long-path or possible backscatter and backscatter from the same sta
     <tr><td>Clarifier</td><td>See <a href="#rit">RIT</a></td></tr>
     <tr><td>Club station</td><td></td></tr>
     <tr><td>Coax</td><td>See <a href="#coaxc">Coaxial cable</a> below</td></tr>
-    <tr><td id="coaxc">Coaxial cable (see <a href="https://en.wikipedia.org/wiki/Coaxial_cable">https://en.wikipedia.org/wiki/Coaxial_cable</a>)</td><td></td></tr>
+    <tr><td id="coaxc">Coaxial cable</td><td>see <a href="https://en.wikipedia.org/wiki/Coaxial_cable">https://en.wikipedia.org/wiki/Coaxial_cable</a></td></tr>
     <tr><td>Contest</td><td></td></tr>
     <tr><td>Compression</td><td>A process of automatic adjustment of variation in audio volume.</td></tr>
     <tr><td>COTA</td><td>Castles on the air</td></tr>
