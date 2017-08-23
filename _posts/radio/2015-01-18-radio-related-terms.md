@@ -24,7 +24,8 @@ image:
     <tr><td>Activation</td><td>DX (rare country), IOTA or IWI (island), SES (event) or other activity, usually with a special callsign.</td></tr>
     <tr><td>AGL</td><td>Above ground level</td></tr>
     <tr><td>Antenna tuner, ATU</td><td></td></tr>
-    <tr><td>A-index</td><td></td></tr>
+    <tr><td>A-index</td><td>24 hour summary of geomagnetic activity. A index is an average of the eight 3-hour K indices, and uses a linear scale that goes from 0 (quiet) to 400 (severe storm).
+    </td></tr>
     <tr><td>ASL</td><td>Above sea level</td></tr>
     <tr><td>ATNO</td><td>&ldquo;All Time New One&rdquo; (<a href="http://www.delta-alfa.com/atno-the-dx-hallelujah/">http://www.delta-alfa.com/atno-the-dx-hallelujah/</a>)</td></tr>
     <tr><td>Aurora</td><td>Radio aurora, propagation mode that is associated with northern lights (aurora borealis in the northern hemisphere and aurora australis in the southern hemisphere).
