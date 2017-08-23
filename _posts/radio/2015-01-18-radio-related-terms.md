@@ -24,7 +24,7 @@ image:
     <tr><td>Activation</td><td>DX (rare country), IOTA or IWI (island), SES (event) or other activity, usually with a special callsign.</td></tr>
     <tr><td>AGL</td><td>Above ground level</td></tr>
     <tr><td>Antenna tuner, ATU</td><td></td></tr>
-    <tr><td>A-index</td><td>24 hour summary of geomagnetic activity. A index is an average of the eight 3-hour K indices, and uses a linear scale that goes from 0 (quiet) to 400 (severe storm).
+    <tr><td>A index</td><td>24 hour summary of geomagnetic activity. A index is an average of the eight 3-hour K indices, and uses a linear scale that goes from 0 (quiet) to 400 (severe storm).
     </td></tr>
     <tr><td>ASL</td><td>Above sea level</td></tr>
     <tr><td>ATNO</td><td>&ldquo;All Time New One&rdquo; (<a href="http://www.delta-alfa.com/atno-the-dx-hallelujah/">http://www.delta-alfa.com/atno-the-dx-hallelujah/</a>)</td></tr>
@@ -113,7 +113,7 @@ Example of a long-path or possible backscatter and backscatter from the same sta
     <tr><td>IRC</td><td>International reply coupon, <a href="http://www.upu.int/en/activities/international-reply-coupons/">about IRCs</a></td></tr>
     <tr><td>IWI</td><td>Inland waterway island (inland islands in lakes, rivers etc.)</td></tr>
     <tr><td>J-pole</td><td>The J-pole antenna is an end-fed omnidirectional half-wave antenna that is matched to the feedline by a quarter wave parallel transmission line stub. See <a href="https://en.wikipedia.org/wiki/J-pole_antenna">https://en.wikipedia.org/wiki/J-pole_antenna</a></td></tr>
-    <tr><td>K-index</td><td></td></tr>
+    <tr><td>K index</td><td>The current state of the earth's magnetic field (from 0-9).</td></tr>
     <tr><td>Lambda</td><td>See <a href="#wavelength">wavelength</a></td></tr>
     <tr><td>Letter contest</td><td></td></tr>
     <!-- Loading coil -->
