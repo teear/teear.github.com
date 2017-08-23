@@ -111,7 +111,7 @@ Example of a long-path or possible backscatter and backscatter from the same sta
     <tr><td>IOTA</td><td>Islands on the air</td></tr>
     <tr><td>IRC</td><td>International reply coupon, <a href="http://www.upu.int/en/activities/international-reply-coupons/">about IRCs</a></td></tr>
     <tr><td>IWI</td><td>Inland waterway island (inland islands in lakes, rivers etc.)</td></tr>
-    <tr><td>J-pole</td><td></td></tr>
+    <tr><td>J-pole</td><td>The J-pole antenna is an end-fed omnidirectional half-wave antenna that is matched to the feedline by a quarter wave parallel transmission line stub. See <a href="https://en.wikipedia.org/wiki/J-pole_antenna">https://en.wikipedia.org/wiki/J-pole_antenna</a></td></tr>
     <tr><td>K-index</td><td></td></tr>
     <tr><td>Lambda</td><td>See <a href="#wavelength">wavelength</a></td></tr>
     <tr><td>Letter contest</td><td></td></tr>
