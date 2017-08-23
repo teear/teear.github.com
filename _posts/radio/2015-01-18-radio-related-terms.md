@@ -114,7 +114,7 @@ Example of a long-path or possible backscatter and backscatter from the same sta
     <tr><td>IWI</td><td>Inland waterway island (inland islands in lakes, rivers etc.)</td></tr>
     <tr><td>J-pole</td><td>The J-pole antenna is an end-fed omnidirectional half-wave antenna that is matched to the feedline by a quarter wave parallel transmission line stub. See <a href="https://en.wikipedia.org/wiki/J-pole_antenna">https://en.wikipedia.org/wiki/J-pole_antenna</a></td></tr>
     <tr><td>K index</td><td>The current state of the earth's magnetic field (from 0-9).</td></tr>
-    <tr><td>Kp index</td><td>Planetary K index (Kp index) is derived from several magnetometers around the world. Current Kp index: <a href="http://www.swpc.noaa.gov/products/planetary-k-index">http://www.swpc.noaa.gov/products/planetary-k-index</a>
+    <tr><td>Kp index</td><td>Planetary K index (Kp index) is derived from the K index of 13 magnetometers between 44 degrees and 60 degrees northern or southern geomagnetic latitude. <a href="http://www.swpc.noaa.gov/products/planetary-k-index">Current Kp index</a>, <a href="http://www.gfz-potsdam.de/en/kp-index">Official Kp index website</a>
     </td></tr>
     <tr><td>Lambda</td><td>See <a href="#wavelength">wavelength</a></td></tr>
     <tr><td>Letter contest</td><td></td></tr>
