@@ -59,7 +59,7 @@ Example of a long-path or possible backscatter and backscatter from the same sta
     <tr><td>Clarifier</td><td>See <a href="#rit">RIT</a></td></tr>
     <tr><td>Club station</td><td></td></tr>
     <tr><td>Coax</td><td>See <a href="#coaxc">Coaxial cable</a> below</td></tr>
-    <tr><td id="coaxc">Coaxial cable</td><td></td></tr>
+    <tr><td id="coaxc">Coaxial cable (see <a href="https://en.wikipedia.org/wiki/Coaxial_cable">https://en.wikipedia.org/wiki/Coaxial_cable</a>)</td><td></td></tr>
     <tr><td>Contest</td><td></td></tr>
     <tr><td>Compression</td><td>A process of automatic adjustment of variation in audio volume.</td></tr>
     <tr><td>COTA</td><td>Castles on the air</td></tr>
@@ -86,7 +86,7 @@ Example of a long-path or possible backscatter and backscatter from the same sta
     <!--
     feedback: A loud noise, squeal, or howl from a microphone or speaker, caused by improper placement, circuit noise, accidental closing of the circuit, or another error or problem.
 -->
-    <tr><td>Feedline (Transmission line)</td><td>The coaxial cable or wire(s) that carry RF power from transmitter to antenna, and
+    <tr><td id="feedline">Feedline (Transmission line)</td><td>The coaxial cable or wire(s) that carry RF power from transmitter to antenna, and
         received signals from antenna to reveiver.</td></tr>
     <tr><td>Feedpoint</td><td>Part of the antenna where the feedline (most often a coaxial cable) is connected. The reported height of an antenna
         is the height from ground or sea level to the feedpoint.</td></tr>
@@ -220,6 +220,7 @@ Solar-Flux-Indeksi...auringon aktiivisuuden taso (mitattuna 2.8 GHz(10.7 cm)
     -->
     <tr><td>SWR</td><td>Standing wave ratio</td></tr>
     <tr><td>Take-off angle</td><td></td></tr>
+    <tr><td>Transmission line</td><td>See <a href="#feedline">Feed line</a></td></tr>
     <tr><td>TVI</td><td>Television Interference</td></tr>
     <tr><td>TX</td><td>Radio transmitter, transmit</td></tr>
     <!-- USB -->
