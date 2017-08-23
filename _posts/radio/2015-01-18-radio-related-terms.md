@@ -214,7 +214,7 @@ Solar-Flux-Indeksi...auringon aktiivisuuden taso (mitattuna 2.8 GHz(10.7 cm)
     -->
     <tr><td>Static mobile</td><td>A mobile station that is not moving</td></tr>
     <tr><td>Static rain</td><td>Water, snow or sleet rain, where the particles falling from the sky are electrically charged.</td></tr>
-    <tr><td>Sunspot</td><td>Sunspots are dark spots on the surface of the sun. They are darker than the surrounding sun surface because their temperature is around 1500 &#8451; lower. Sunpots are caused by strong local magnetic fields. The number of sunspots varies in about 11 year cycles. There is more solar energy output when there is more sunspots and this increases ionization in the layers of the <a href="#ionosphere">ionosphere</a> here on earth.</td></tr>
+    <tr><td>Sunspot</td><td>Sunspots are dark spots on the surface of the sun. They are darker than the surrounding sun surface because their temperature is around 1500 &deg;C<!-- &#8451; --> lower. Sunpots are caused by strong local magnetic fields. The number of sunspots varies in about 11 year cycles. There is more solar energy output when there is more sunspots and this increases ionization in the layers of the <a href="#ionosphere">ionosphere</a> here on earth.</td></tr>
     <!--
     Sunspot number
     -->
