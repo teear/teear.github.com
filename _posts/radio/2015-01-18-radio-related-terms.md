@@ -43,7 +43,7 @@ signal originated from. Backscatter usually requires good propagation and direct
 Example of a long-path or possible backscatter and backscatter from the same station from different antenna directions: <a href="http://www.youtube.com/watch?v=5gMSlnoVCfY">47DX101 Longpath / Backscatter</a>
 -->
     </td></tr>
-    <tr><td>Balun</td><td></td></tr>
+    <tr><td>Balun</td><td>Balanced to unbalanced converter. See <a href="https://en.wikipedia.org/wiki/Balun">https://en.wikipedia.org/wiki/Balun</a></td></tr>
     <tr><td>Band</td><td>Range of frequencies</td></tr>
     <tr><td>Bandwidth</td><td>The available space between two given points on the electromagnetic spectrum and the amount of information that can be squeezed into that space.</td></tr>
 
