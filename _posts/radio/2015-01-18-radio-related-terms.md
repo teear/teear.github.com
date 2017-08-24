@@ -88,7 +88,7 @@ Example of a long-path or possible backscatter and backscatter from the same sta
     feedback: A loud noise, squeal, or howl from a microphone or speaker, caused by improper placement, circuit noise, accidental closing of the circuit, or another error or problem.
 -->
     <tr><td id="feedline">Feedline (Transmission line)</td><td>The coaxial cable or wire(s) that carry RF power from transmitter to antenna, and
-        received signals from antenna to reveiver.</td></tr>
+        received signals from antenna to receiver.</td></tr>
     <tr><td>Feedpoint</td><td>Part of the antenna where the feedline (most often a coaxial cable) is connected. The reported height of an antenna
         is the height from ground or sea level to the feedpoint.</td></tr>
  <!-- <tr><td>Filter</td><td>A circuit that manipulates signals differently based on their frequency</td></tr> -->
