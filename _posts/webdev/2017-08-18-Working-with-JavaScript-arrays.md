@@ -38,7 +38,7 @@ iterable objects (String, Array, TypedArray, Map and Set are built in iterables.
 
 {% highlight javascript %}
 let s = new Set(['alfa', 'bravo']); 
-Array.from(s); //["alfa", "bravo"] 
+Array.from(s); // ["alfa", "bravo"] 
 {% endhighlight %}
 
 
