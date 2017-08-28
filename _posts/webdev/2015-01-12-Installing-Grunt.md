@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Installing Grunt
+published: false
 
 image:
   teaser: grunt.png
