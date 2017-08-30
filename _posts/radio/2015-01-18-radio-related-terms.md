@@ -163,7 +163,7 @@ To find out your own locator you need to know the coordinates of your QTH and us
     <tr><td id="qsl">QSL</td><td>&ldquo;Roger&rdquo;, message confirmed. (<a href="filling-qsl-cards.php" title="Filling QSL Cards">QSL-card</a> = a card confirming a radio contact)</td></tr>
     <tr><td>QSL manager</td><td>Person that handles the QSL cards of a station or activity. Normally a contribution for the post costs is required.</td></tr>
     <tr><td>QSY</td><td>Change of frequency (e.g. QSY to 27.625)</td></tr>
-    <!-- <tr><td>Radio shack</td><td></td></tr> -->
+    <tr><td>Radio shack</td><td>Place where radio equipment is housed and operated</td></tr>
     <tr><td>Reflector</td><td>Element behind the driven element in a beam antenna. It reradiates a portion of the
         transmitted energy forward through the driven element.</td></tr>
     <tr><td>RF</td><td>Radio frequency</td></tr>
