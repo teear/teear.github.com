@@ -172,7 +172,7 @@ To find out your own locator you need to know the coordinates of your QTH and us
     <!-- RIG -->
     <tr><td id="rit">RIT</td><td>Receiver Incremental Tuning &ndash; A way to offset your receive frequency incrementally from the transmit frequency. Useful when the other station your talking to is slightly off frequency; you can use RIT to adjust only your receive frequency to hear the other station clearly. See also <a href="#xit">XIT</a></td></tr>
     <tr><td>Roger</td><td>R, Message confirmed</td></tr>
-    <tr><td>ROS</td><td></td></tr>
+    <tr><td>ROS</td><td>Weak signal digital mode created by Jose Alberto Ros. ROS activity can be found on 27.245 MHz USB and 27.635 MHz USB.</td></tr>
     <tr><td>Rotator</td><td></td></tr>
     <tr><td>RX</td><td>Radio receiver, receive</td></tr>
     <tr><td>SAE</td><td>Self-addressed envelope</td></tr>
