@@ -93,6 +93,8 @@ Example of a long-path or possible backscatter and backscatter from the same sta
         is the height from ground or sea level to the feedpoint.</td></tr>
  <!-- <tr><td>Filter</td><td>A circuit that manipulates signals differently based on their frequency</td></tr> -->
  <!-- F-layer, FM -->
+    <tr><td>Front-to-back ratio</td><td>The ratio of
+the radiation off the front compared to the radiation off the back in a directional antenna.</td></tr>
     <tr><td>Gain</td><td></td></tr>
     <tr><td>Gamma-match</td><td></td></tr>
     <tr><td>GMT</td><td>Greenwich Mean Time &ndash; nowadays <a href="#utc">UTC</a> is used instead of GMT</td></tr>
