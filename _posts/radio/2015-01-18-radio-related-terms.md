@@ -72,6 +72,7 @@ Example of a long-path or possible backscatter and backscatter from the same sta
     <tr><td>Digital modes</td><td>General term for digital transmission modes such as PSK31, RTTY etc.</td></tr>
     <tr><td>Dipole</td><td></td></tr>
     <tr><td>Director</td><td>In an antenna: a parasitic element that focuses the radiated signal to the forward direction &hellip; &ndash; In a DX group&hellip;</td></tr>
+    <tr><td>Driven element</td><td>The element in an antenna that receives power from the transmitter.</td></tr>
     <tr><td id="dx">DX</td><td>Distant X, distant unknown &ndash; on 11m contacts to other continents and possibly to some rare DXCCs in your own continent.</td></tr>
     <tr><td>DX-pedition</td><td>Expedition to a country or an island which is wanted on 11m band because there is no operators active there or not many.</td></tr>
 
