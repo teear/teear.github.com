@@ -80,7 +80,7 @@ Example of a long-path or possible backscatter and backscatter from the same sta
     <tr><td>EMC</td></tr>
     <tr><td>E-layer</td></tr>
 -->
-    <tr><td>E-QSL</td><td>Electronic QSL, a <a href="#qsl">QSL card</a> in digital form (could be an image or a PDF-file) sent via e-mail or via some e-qsl service to the receiver.</td></tr>
+    <tr><td>E-QSL</td><td>Electronic QSL, a <a href="#qsl">QSL card</a> in digital form (could be an image or a PDF-file) sent via E-mail or via some E-QSL service to the receiver.</td></tr>
 <!--
     <tr><td>ERP</td></tr>
 -->
