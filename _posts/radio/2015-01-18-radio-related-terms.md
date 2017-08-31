@@ -162,7 +162,7 @@ To find out your own locator you need to know the coordinates of your QTH and us
     <tr><td>PTT</td><td>Push-to-talk, transmit switch on the microphone of a transceiver.</td></tr>
     <tr><td>QRT</td><td>Away from radio, not transmitting</td></tr>
     <tr><td>QRZ</td><td>QRZ means &ldquo;Who is calling me?&rdquo; If you did not catch the callsign of the station calling you and you want him to repeat his callsign, then and only then you can ask QRZ?</td></tr>
-    <tr><td>QSB, fading</td><td></td></tr>
+    <tr><td>QSB</td><td>Fading</td></tr>
     <tr><td>QSK</td><td>Break &ndash; Break in on an ongoing QSO</td></tr>
     <tr><td id="qsl">QSL</td><td>&ldquo;Roger&rdquo;, message confirmed. (<a href="filling-qsl-cards.php" title="Filling QSL Cards">QSL-card</a> = a card confirming a radio contact)</td></tr>
     <tr><td>QSL manager</td><td>Person that handles the QSL cards of a station or activity. Normally a contribution for the post costs is required.</td></tr>
