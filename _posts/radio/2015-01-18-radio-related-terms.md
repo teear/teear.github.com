@@ -88,9 +88,9 @@ Example of a long-path or possible backscatter and backscatter from the same sta
     <!--
     feedback: A loud noise, squeal, or howl from a microphone or speaker, caused by improper placement, circuit noise, accidental closing of the circuit, or another error or problem.
 -->
-    <tr><td id="feedline">Feedline (Transmission line)</td><td>The coaxial cable or wire(s) that carry RF power from transmitter to antenna, and
+    <tr><td id="feedline">Feed line (Transmission line)</td><td>The coaxial cable or wire(s) that carry RF power from transmitter to antenna, and
         received signals from antenna to receiver.</td></tr>
-    <tr><td>Feedpoint</td><td>Part of the antenna where the feedline (most often a coaxial cable) is connected. The reported height of an antenna
+    <tr><td>Feedpoint</td><td>Part of the antenna where the feed line (most often a coaxial cable) is connected. The reported height of an antenna
         is the height from ground or sea level to the feedpoint.</td></tr>
  <!-- <tr><td>Filter</td><td>A circuit that manipulates signals differently based on their frequency</td></tr> -->
  <!-- F-layer, FM -->
@@ -115,7 +115,7 @@ the radiation off the front compared to the radiation off the back in a directio
     <tr><td>IOTA</td><td>Islands on the air</td></tr>
     <tr><td>IRC</td><td>International reply coupon, <a href="http://www.upu.int/en/activities/international-reply-coupons/">about IRCs</a></td></tr>
     <tr><td>IWI</td><td>Inland waterway island (inland islands in lakes, rivers etc.)</td></tr>
-    <tr><td>J-pole</td><td>The J-pole antenna is an end-fed omnidirectional half-wave antenna that is matched to the feedline by a quarter wave parallel transmission line stub. See <a href="https://en.wikipedia.org/wiki/J-pole_antenna">https://en.wikipedia.org/wiki/J-pole_antenna</a></td></tr>
+    <tr><td>J-pole</td><td>The J-pole antenna is an end-fed omnidirectional half-wave antenna that is matched to the feed line by a quarter wave parallel transmission line stub. See <a href="https://en.wikipedia.org/wiki/J-pole_antenna">https://en.wikipedia.org/wiki/J-pole_antenna</a></td></tr>
     <tr><td>K index</td><td>The current state of the earth's magnetic field (from 0-9).</td></tr>
     <tr><td>Kp index</td><td>Planetary K index (Kp index) is derived from the K index of 13 magnetometers between 44 degrees and 60 degrees northern or southern geomagnetic latitude. <a href="http://www.swpc.noaa.gov/products/planetary-k-index">Current Kp index</a>, <a href="http://www.gfz-potsdam.de/en/kp-index">Official Kp index website</a>
     </td></tr>
@@ -143,7 +143,7 @@ To find out your own locator you need to know the coordinates of your QTH and us
     <tr><td>Omnidirectional</td><td>Antenna which radiates radio wave power uniformly in all directions in one plane. Some examples of omnidirectional antennas are the vertical dipole, the GP and a 5/8 wave antenna.</td></tr>
     <tr><td>Opening</td><td>When the propagation opens to some part of the world, we are talking about an opening</td></tr>
     <tr><td>Operator</td><td>The person operating a radio station</td></tr>
-    <tr><td>Parasitic elements</td><td>Reflector and directors in a beam antenna. Called parasitic because the feedline is not connected to these elements; they receive power from the driven element by inductive coupling.</td></tr>
+    <tr><td>Parasitic elements</td><td>Reflector and directors in a beam antenna. Called parasitic because the feed line is not connected to these elements; they receive power from the driven element by inductive coupling.</td></tr>
     <tr><td>PL-259</td><td>Male UHF-connector (see also <a href="http://fldx.org/site/pl-259-install.php">Installing PL-259 Plugs Properly</a>)</td></tr>
     <tr><td>Pileup</td><td>Many 11m operators trying to get through to the same station at the same time, this might be a DX-pedition or an otherwise
         interesting station. In a pileup you repeat your callsign or only your unit number until the DX station gives you a
