@@ -238,7 +238,7 @@ Solar-Flux-Indeksi...auringon aktiivisuuden taso (mitattuna 2.8 GHz(10.7 cm)
     <tr><td>Vertical</td><td></td></tr>
     <tr><td>VOX</td><td>Voice Operated eXchange &ndash; Function on HF radios which enables the transmit to start automatically when you start talking and to end when you stop talking.</td></tr>
     <tr><td id="wavelength">Wavelength</td><td></td></tr>
-    <tr><td>WX</td><td>&ldquo;double-u x&rdquo;, the weather</td></tr>
+    <tr><td>WX</td><td>The weather</td></tr>
     <tr><td id="xit">XIT</td><td>Transmitter Incremental Tuning &ndash; A way to offset the transmit frequency incrementally from the receive frequency.</td></tr>
     <tr><td>XYL</td><td>Ex Young Lady (wife)</td></tr>
     <!-- Yagi -->
