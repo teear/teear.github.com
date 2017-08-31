@@ -88,7 +88,7 @@ Example of a long-path or possible backscatter and backscatter from the same sta
     <!--
     feedback: A loud noise, squeal, or howl from a microphone or speaker, caused by improper placement, circuit noise, accidental closing of the circuit, or another error or problem.
 -->
-    <tr><td id="feedline">Feed line (Transmission line)</td><td>The coaxial cable or wire(s) that carry RF power from transmitter to antenna, and
+    <tr><td id="feed-line">Feed line (Transmission line)</td><td>The coaxial cable or wire(s) that carry RF power from transmitter to antenna, and
         received signals from antenna to receiver.</td></tr>
     <tr><td>Feed point</td><td>Part of the antenna where the feed line (most often a coaxial cable) is connected. The reported height of an antenna
         is the height from ground or sea level to the feed point.</td></tr>
@@ -230,7 +230,7 @@ Solar-Flux-Indeksi...auringon aktiivisuuden taso (mitattuna 2.8 GHz(10.7 cm)
     -->
     <tr><td>SWR</td><td>Standing wave ratio</td></tr>
     <tr><td>Take-off angle</td><td></td></tr>
-    <tr><td>Transmission line</td><td>See <a href="#feedline">Feed line</a></td></tr>
+    <tr><td>Transmission line</td><td>See <a href="#feed-line">Feed line</a></td></tr>
     <tr><td>TVI</td><td>Television Interference</td></tr>
     <tr><td>TX</td><td>Radio transmitter, transmit</td></tr>
     <!-- USB -->
