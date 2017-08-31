@@ -90,8 +90,8 @@ Example of a long-path or possible backscatter and backscatter from the same sta
 -->
     <tr><td id="feedline">Feed line (Transmission line)</td><td>The coaxial cable or wire(s) that carry RF power from transmitter to antenna, and
         received signals from antenna to receiver.</td></tr>
-    <tr><td>Feedpoint</td><td>Part of the antenna where the feed line (most often a coaxial cable) is connected. The reported height of an antenna
-        is the height from ground or sea level to the feedpoint.</td></tr>
+    <tr><td>Feed point</td><td>Part of the antenna where the feed line (most often a coaxial cable) is connected. The reported height of an antenna
+        is the height from ground or sea level to the feed point.</td></tr>
  <!-- <tr><td>Filter</td><td>A circuit that manipulates signals differently based on their frequency</td></tr> -->
  <!-- F-layer, FM -->
     <tr><td>Front-to-back ratio</td><td>The ratio of
