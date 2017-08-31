@@ -165,7 +165,7 @@ To find out your own locator you need to know the coordinates of your QTH and us
     <tr><td>QSB</td><td>Fading</td></tr>
     <tr><td>QSK</td><td>Break &ndash; Break in on an ongoing QSO</td></tr>
     <tr><td id="qsl">QSL</td><td>&ldquo;Roger&rdquo;, message confirmed</td></tr>
-    <tr><td>(<a href="filling-qsl-cards.php" title="Filling QSL Cards">QSL card</a></td><td>A card confirming a radio contact</td></tr>
+    <tr><td><a href="filling-qsl-cards.php" title="Filling QSL Cards">QSL card</a></td><td>A card confirming a radio contact</td></tr>
     <tr><td>QSL manager</td><td>Person that handles the QSL cards of a station or activity. Normally a contribution for the post costs is required.</td></tr>
     <tr><td>QSY</td><td>Change of frequency (e.g. QSY to 27.625)</td></tr>
     <tr><td>Quagi</td><td>Antenna that has a quad driven element, quad reflector, and Yagi directors.</td></tr>
