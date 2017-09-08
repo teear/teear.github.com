@@ -33,7 +33,7 @@ image:
  It's possible to make aurora QSOs on SSB but on FM the sound of the station coming via aurora is too distorted. When making QSOs via radio aurora antennas are usually
  turned approximately to north. Some audio of aurora QSOs going on in north Europe: <a href="http://www.ustream.tv/recorded/10783507">http://www.ustream.tv/recorded/10783507</a>
     </td></tr>
-    <tr><td>Auroral-E</td><td></td></tr>
+    <tr><td>Auroral E</td><td></td></tr>
     <!--
     <tr><td>Award</td><td></td></tr>
  -->
@@ -213,7 +213,7 @@ Solar-Flux-Indeksi...auringon aktiivisuuden taso (mitattuna 2.8 GHz(10.7 cm)
         Sometimes DX-peditions use a frequency range instead of a single frequency, for example 27.600&ndash;27.610. In this case the DX-pedition operator will be listening
         on every frequency inside this range step by step (27.600, 27.601, 27.602 etc.). This gives those trying to work the DX-pedition a better chance
         of getting through.</td></tr>
-    <tr><td>Sporadic e, ES</td><td>Also sometimes referred to as &ldquo;summer propagation&rdquo;. See: <a href="http://www.chem.hawaii.edu/uham/spore.html">Understanding 10 (11) Meter Sporadic-E</a></td></tr>
+    <tr><td>Sporadic E, ES</td><td>Also sometimes referred to as &ldquo;summer propagation&rdquo;. See: <a href="http://www.chem.hawaii.edu/uham/spore.html">Understanding 10 (11) Meter Sporadic-E</a></td></tr>
     <!-- SSB -->
     <tr><td>SSTV</td><td>Slow-scan television (still-pictures sent via radio) &ndash; SSTV call frequency on 11m is 27.700 USB</td></tr>
     <tr><td>Standard contribution</td><td>Standard or normal contribution used to be $1, nowadays because of the increased post costs the normal contribution for many
