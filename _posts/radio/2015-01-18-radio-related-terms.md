@@ -131,9 +131,9 @@ To find out your own locator you need to know the coordinates of your QTH and us
     <tr><td>LP, Long-path</td><td>QSO via longer route around the world to your destination station</td></tr>
     <!--
     <tr><td>LSB</td><td></td></tr>
-    <tr><td>Maritime Mobile /MM</td><td>Maritime mobile station is a marine station (boat or ship) in international waters, the prefix (DXCC) used in the callsign
-        when maritime mobile is the prefix of the country the ship is registered in. QSOs to maritime mobile stations are not valid as a worked country.</td></tr>
     -->
+    <tr><td>Maritime mobile /MM</td><td>Maritime mobile station is a marine station (boat or ship) in international waters. The prefix used in the callsign
+    when maritime mobile is the prefix of the country the ship is registered in. QSOs to maritime mobile stations are not valid as a worked country.</td></tr>
     <tr><td>Mobile /M</td><td>Radio station in a vehicle, for example in a car (also vessels on inland waterways).</td></tr>
     <tr><td>Modulation</td><td></td></tr>
     <tr><td>MUF</td><td>Maximum Usable Frequency &ndash;
