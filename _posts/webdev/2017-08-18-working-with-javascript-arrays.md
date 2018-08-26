@@ -25,13 +25,17 @@ Using the array literal syntax:
 
 {% highlight javascript %}
 let arr = []; // empty array []
-let arr = ["one", "two", "three"]; // ["one", "two", "three"]
+    arr = ["one", "two", "three"]; // ["one", "two", "three"]
 {% endhighlight %}
 
 {% highlight javascript %}
-let arr = []; // empty array []
 let arr[4] = 4; // [undefined, undefined, undefined, undefined, 4]
 {% endhighlight %}
+
+{% highlight javascript %}
+let arr[,,2] = 2; // [undefined, undefined, 2]
+{% endhighlight %}
+
 
 Using Array.of():
 
