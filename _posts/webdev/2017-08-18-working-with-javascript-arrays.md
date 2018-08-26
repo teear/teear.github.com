@@ -29,11 +29,12 @@ let arr = []; // empty array []
 {% endhighlight %}
 
 {% highlight javascript %}
-let arr[4] = 4; // [undefined, undefined, undefined, undefined, 4]
+let arr = [];
+    arr[4] = 4; // [undefined, undefined, undefined, undefined, 4]
 {% endhighlight %}
 
 {% highlight javascript %}
-let arr[,,2] = 2; // [undefined, undefined, 2]
+let arr = [,,2]; // [undefined, undefined, 2]
 {% endhighlight %}
 
 
