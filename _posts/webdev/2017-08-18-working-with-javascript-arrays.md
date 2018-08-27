@@ -57,7 +57,10 @@ Accessing elements
 ------------------
 
 {% highlight javascript %}
-let array = ["alfa", "bravo", "charlie"];
-let first = array[0]; // "alfa"
+let array = ["alfa", "bravo", "charlie", {delta: "delta"}, function() { return 'echo'; }, ["foxtrot", "golf", "hotel"]];
+let first = array[0]; // "alfa""
 let last = array[array.length - 1]; // "charlie"
+console.log(array[3].delta); // "delta"
+array[4](); // "echo"
+array[5][2]; // "hotel"
 {% endhighlight %}
