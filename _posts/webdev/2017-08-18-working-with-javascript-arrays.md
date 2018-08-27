@@ -60,7 +60,8 @@ Accessing elements
 let array = ["alfa", ["bravo", "charlie"], {delta: "delta"}, function() { return 'echo'; }, "foxtrot"];
 let first = array[0]; // "alfa""
 let last = array[array.length - 1]; // "foxtrot"
-console.log(array[2].delta); // "delta"
+array[1][1]; // "charlie"
+array[2].delta; // "delta"
 array[3](); // "echo"
-array[4][2]; // "foxtrot"
+array[4]; // "foxtrot"
 {% endhighlight %}
