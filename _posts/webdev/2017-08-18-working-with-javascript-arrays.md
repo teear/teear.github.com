@@ -62,6 +62,7 @@ let first = array[0]; // "alfa""
 let last = array[array.length - 1]; // "foxtrot"
 array[1][1]; // "charlie"
 array[2].delta; // "delta"
+array[3]; //  function() { return 'echo'; }
 array[3](); // "echo"
 array[4]; // "foxtrot"
 {% endhighlight %}
