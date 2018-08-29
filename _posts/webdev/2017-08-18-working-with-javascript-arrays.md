@@ -9,9 +9,6 @@ image:
   creditlink: https://pixabay.com/ #url to their site or licensing
 ---
 
-JavaScript arrays
-=================
-
 Arrays in JavaScript are a special kind of object that inherits from the Array.prototype.
 
 Creating an array
@@ -77,32 +74,38 @@ array[500]; // undefined
 Adding and removing elements
 ----------------------------
 
+We have the following array
+
 {% highlight javascript %}
 var array = ["bravo", "charlie", "delta"];
 {% endhighlight %}
 
-Add an item to the end of the array:
+We can add an item to the end of the array with push
 
 {% highlight javascript %}
-array.push("echo"); // ["bravo", "charlie", "delta", "echo"];
+array.push("echo");
+console.log(array); // ["bravo", "charlie", "delta", "echo"];
 {% endhighlight %}
 
-Add an item to the start of the array:
+To add an item to the start of the array you use unshift
 
 {% highlight javascript %}
-array.unshift("alfa"); // ["alfa", "bravo", "charlie", "delta", "echo"];
+array.unshift("alfa");
+console.log(array); // ["alfa", "bravo", "charlie", "delta", "echo"];
 {% endhighlight %}
 
-Remove an item from the end of the array:
+pop is used to remove an item from the end of the array, it returns the removed item:
 
 {% highlight javascript %}
-array.pop(); // ["alfa", "bravo", "charlie", "delta"];
+array.pop(); // returns "echo"
+console.log(array); // ["alfa", "bravo", "charlie", "delta"];
 {% endhighlight %}
 
-Remove an item from the start of the array:
+shift is used to remove an item from the start of the array, it returns the removed item:
 
 {% highlight javascript %}
-array.shift(); // ["bravo", "charlie", "delta"];
+array.shift(); // returns "alfa"
+console.log(array); // ["bravo", "charlie", "delta"];
 {% endhighlight %}
 
 
