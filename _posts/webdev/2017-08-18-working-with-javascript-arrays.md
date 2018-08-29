@@ -9,6 +9,11 @@ image:
   creditlink: https://pixabay.com/ #url to their site or licensing
 ---
 
+JavaScript arrays
+=================
+
+Arrays in JavaScript are a special kind of object that inherits from the Array.prototype.
+
 Creating an array
 -----------------
 
@@ -65,4 +70,49 @@ array[2].delta; // "delta"
 array[3]; //  function() { return 'echo'; }
 array[3](); // "echo"
 array[4]; // "foxtrot"
+array[500]; // undefined
 {% endhighlight %}
+
+
+Adding and removing elements
+----------------------------
+
+{% highlight javascript %}
+var array = ["bravo", "charlie", "delta"];
+{% endhighlight %}
+
+Add an item to the end of the array:
+
+{% highlight javascript %}
+array.push("echo"); // ["bravo", "charlie", "delta", "echo"];
+{% endhighlight %}
+
+Add an item to the start of the array:
+
+{% highlight javascript %}
+array.unshift("alfa"); // ["alfa", "bravo", "charlie", "delta", "echo"];
+{% endhighlight %}
+
+Remove an item from the end of the array:
+
+{% highlight javascript %}
+array.pop(); // ["alfa", "bravo", "charlie", "delta"];
+{% endhighlight %}
+
+Remove an item from the start of the array:
+
+{% highlight javascript %}
+array.shift(); // ["bravo", "charlie", "delta"];
+{% endhighlight %}
+
+
+{% highlight javascript %}
+{% endhighlight %}
+{% highlight javascript %}
+{% endhighlight %}
+{% highlight javascript %}
+{% endhighlight %}
+
+
+
+
