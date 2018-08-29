@@ -108,11 +108,19 @@ array.shift(); // returns "alfa"
 console.log(array); // ["bravo", "charlie", "delta"];
 {% endhighlight %}
 
+If you need to add or remove items in other indexes, you can use splice
 
 {% highlight javascript %}
+array.splice(1, 1); // removes 1 item at index 1
+console.log(array); // ["bravo", "delta"];
 {% endhighlight %}
+
 {% highlight javascript %}
+array.splice(1, 0, "charlie"); // inserts 1 item at index 1
+console.log(array); // ["bravo", "charlie", "delta"];
 {% endhighlight %}
+
+
 {% highlight javascript %}
 {% endhighlight %}
 
