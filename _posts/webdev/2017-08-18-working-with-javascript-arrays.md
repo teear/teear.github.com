@@ -9,7 +9,7 @@ image:
   creditlink: https://pixabay.com/ #url to their site or licensing
 ---
 
-Arrays in JavaScript are a special kind of object that inherits from the Array.prototype.
+Arrays in JavaScript are a special kind of object that inherits from the Array.prototype. Arrays are ordered collections of values.
 
 Creating an array
 -----------------
@@ -19,7 +19,7 @@ Using the constructor syntax:
 {% highlight javascript %}
 let arr = new Array(); // empty array []
 let arr = new Array("Joe", "Bob"); // ["Joe", "Bob"]
-let arr = new Array(2); // array with two empty elements [undefined, undefined]
+let arr = new Array(2); // array with two empty elements [,]
 let arr = new Array(5).fill("Joe"); // ["Joe", "Joe", "Joe", "Joe", "Joe"]
 {% endhighlight %}
 
@@ -32,11 +32,11 @@ let arr = []; // empty array []
 
 {% highlight javascript %}
 let arr = [];
-    arr[4] = 4; // [undefined, undefined, undefined, undefined, 4]
+    arr[4] = 4; // [,,,,4]
 {% endhighlight %}
 
 {% highlight javascript %}
-let arr = [,,2]; // [undefined, undefined, 2]
+let arr = [,,2]; // [,,2]
 {% endhighlight %}
 
 
@@ -71,8 +71,8 @@ array[500]; // undefined
 {% endhighlight %}
 
 
-Adding and removing elements
-----------------------------
+Adding, removing and replacing elements
+---------------------------------------
 
 We have the following array
 
@@ -80,48 +80,56 @@ We have the following array
 var array = ["bravo", "charlie", "delta"];
 {% endhighlight %}
 
-We can add an item to the end of the array with push
+We can add an element to the end of the array with push
 
 {% highlight javascript %}
-array.push("echo");
+array.push("echo"); // returns number of items in the array
 console.log(array); // ["bravo", "charlie", "delta", "echo"];
 {% endhighlight %}
 
-To add an item to the start of the array you use unshift
+To add an element to the start of the array you use unshift
 
 {% highlight javascript %}
-array.unshift("alfa");
+array.unshift("alfa"); // returns number of items in the array
 console.log(array); // ["alfa", "bravo", "charlie", "delta", "echo"];
 {% endhighlight %}
 
-pop is used to remove an item from the end of the array, it returns the removed item:
+pop is used to remove an element from the end of the array, it returns the removed element
 
 {% highlight javascript %}
 array.pop(); // returns "echo"
 console.log(array); // ["alfa", "bravo", "charlie", "delta"];
 {% endhighlight %}
 
-shift is used to remove an item from the start of the array, it returns the removed item:
+shift is used to remove an element from the start of the array, it returns the removed element
 
 {% highlight javascript %}
 array.shift(); // returns "alfa"
 console.log(array); // ["bravo", "charlie", "delta"];
 {% endhighlight %}
 
-If you need to add or remove items in other indexes, you can use splice
+If you need to add, remove or replace items in other indexes, you can use splice
 
 {% highlight javascript %}
-array.splice(1, 1); // removes 1 item at index 1
+array.splice(1, 1); // removes 1 element at index 1 and returns it in an array
 console.log(array); // ["bravo", "delta"];
 {% endhighlight %}
 
 {% highlight javascript %}
-array.splice(1, 0, "charlie"); // inserts 1 item at index 1
+array.splice(1, 0, "charlie"); // inserts 1 item at index 1 and returns [] (empty array, as no elements were removed)
 console.log(array); // ["bravo", "charlie", "delta"];
 {% endhighlight %}
 
+{% highlight javascript %}
+array.splice(1, 1, "canada"); // replaces 1 item at index 1 and returns the removed item
+console.log(array); // ["bravo", "canada", "delta"];
+{% endhighlight %}
+
+delete removes an item and leaves the element empty
 
 {% highlight javascript %}
+delete array[1]; // removes item at index 1 and returns true if succesful
+console.log(array); // ["bravo",,"delta"];
 {% endhighlight %}
 
 
