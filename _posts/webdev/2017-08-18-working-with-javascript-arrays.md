@@ -54,6 +54,12 @@ let s = new Set(['alfa', 'bravo']);
 Array.from(s); // ["alfa", "bravo"] 
 {% endhighlight %}
 
+You can also create associative arrays by using a named index:
+
+{% highlight javascript %}
+let assoc = [];
+assoc["alfa"] = "aarne";
+{% endhighlight %}
 
 Accessing elements
 ------------------
