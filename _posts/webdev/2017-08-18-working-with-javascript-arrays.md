@@ -161,7 +161,7 @@ The reduce() method reduces the items in an array to one value.
 {% highlight javascript %}
 let arr = [1,2,3];
 
-let arr2 = arr.reduce((accumulator, currentvalue) => accumulator + currentvalue; // 55 
+let arr2 = arr.reduce((accumulator, currentvalue) => accumulator + currentvalue); // 6 
 {% endhighlight %}
 
 
