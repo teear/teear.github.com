@@ -4,7 +4,6 @@ title: Working with JavaScript arrays
 
 image:
   teaser: javascript-array.png
-  feature: javascript-array.png
   credit: Pixabay #name of the person or site you want to credit
   creditlink: https://pixabay.com/ #url to their site or licensing
 ---
@@ -136,6 +135,33 @@ delete removes an item and leaves the element empty
 {% highlight javascript %}
 delete array[1]; // removes item at index 1 and returns true if succesful
 console.log(array); // ["bravo",,"delta"];
+{% endhighlight %}
+
+map(), filter() and reduce()
+----------------------------
+
+The map() method is used to map the items of an array into another array.
+
+{% highlight javascript %}
+let array = [1,2,3];
+
+let array2 = array.map(item => item+1); // [2,3,4]
+{% endhighlight %}
+
+The filter() method  is used to create another array with only the items that match a criteria.
+
+{% highlight javascript %}
+let arr = [1,2,3,4,5,6,7,8,9,10];
+
+let arr2 = arr.filter(item => item % 2 === 0); // [2,4,6,8,10]
+{% endhighlight %}
+
+The reduce() method reduces the items in an array to one value.
+
+{% highlight javascript %}
+let arr = [1,2,3];
+
+let arr2 = arr.reduce((accumulator, currentvalue) => accumulator + currentvalue; // 55 
 {% endhighlight %}
 
 
