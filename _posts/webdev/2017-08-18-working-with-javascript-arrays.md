@@ -151,17 +151,17 @@ let array2 = array.map(item => item+1); // [2,3,4]
 The filter() method  is used to create another array with only the items that match a criteria.
 
 {% highlight javascript %}
-let arr = [1,2,3,4,5,6,7,8,9,10];
+let array = [1,2,3,4,5,6,7,8,9,10];
 
-let arr2 = arr.filter(item => item % 2 === 0); // [2,4,6,8,10]
+let array2 = array.filter(item => item % 2 === 0); // [2,4,6,8,10]
 {% endhighlight %}
 
 The reduce() method reduces the items in an array to one value.
 
 {% highlight javascript %}
-let arr = [1,2,3];
+let array = [1,2,3];
 
-let arr2 = arr.reduce((accumulator, currentvalue) => accumulator + currentvalue); // 6 
+let value = array.reduce((accumulator, currentvalue) => accumulator + currentvalue); // 6 
 {% endhighlight %}
 
 
