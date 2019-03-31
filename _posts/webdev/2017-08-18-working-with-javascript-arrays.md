@@ -148,7 +148,7 @@ let array = [1,2,3];
 let array2 = array.map(item => item+1); // [2,3,4]
 {% endhighlight %}
 
-The filter() method  is used to create another array with only the items that match a criteria.
+The filter() method is used to filter items from the array that match a certain criteria. It returns a new array that contains only the matching items.
 
 {% highlight javascript %}
 let array = [1,2,3,4,5,6,7,8,9,10];
