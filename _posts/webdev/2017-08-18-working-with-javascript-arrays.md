@@ -156,14 +156,19 @@ let array = [1,2,3,4,5,6,7,8,9,10];
 let array2 = array.filter(item => item % 2 === 0); // [2,4,6,8,10]
 {% endhighlight %}
 
-The reduce() method reduces the items in an array to one value.
+The reduce() method reduces the items in an array into one value from left to right.
 
 {% highlight javascript %}
 let array = [1,2,3];
 
-let value = array.reduce((accumulator, currentvalue) => accumulator + currentvalue); // 6 
+let value = array.reduce((accumulator, currentvalue) => accumulator + currentvalue.toString()); // "123" 
 {% endhighlight %}
 
 
+The reduceRight() method reduces the items in an array into one value from right to left.
 
+{% highlight javascript %}
+let array = [1,2,3];
 
+let value = array.reduceRight((accumulator, currentvalue) => accumulator + currentvalue.toString()); // "321" 
+{% endhighlight %}
