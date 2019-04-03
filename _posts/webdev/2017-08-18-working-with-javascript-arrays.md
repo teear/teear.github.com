@@ -140,12 +140,12 @@ console.log(array); // ["bravo",,"delta"];
 map(), filter() and reduce()
 ----------------------------
 
-The map() method is used to map the items of an array into another array.
+The map() method takes a function that goes through each item in an array and returns these processed items in another array. The function is not called for empty elements.
 
 {% highlight javascript %}
-let array = [1,2,3];
+let array = [1,2,,3];
 
-let array2 = array.map(item => item+1); // [2,3,4]
+let array2 = array.map(value => value+1); // [2,3,,4]
 {% endhighlight %}
 
 The filter() method is used to filter items from the array that match a certain criteria. It returns a new array that contains only the matching items.
@@ -153,7 +153,7 @@ The filter() method is used to filter items from the array that match a certain 
 {% highlight javascript %}
 let array = [1,2,3,4,5,6,7,8,9,10];
 
-let array2 = array.filter(item => item % 2 === 0); // [2,4,6,8,10]
+let array2 = array.filter(value => value % 2 === 0); // [2,4,6,8,10]
 {% endhighlight %}
 
 The reduce() method reduces the items in an array into one value from left to right.
