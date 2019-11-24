@@ -182,9 +182,9 @@ every() method takes a function that tests an item in an array for a condition a
 {% highlight javascript %}
 let array = [1,2,,3];
 
-arr.every(x => x % 2 === 0) // false
-arr.some(x => x % 2 === 0) // true
-arr.every(x => typeof x === "number") // true
+array.every(x => x % 2 === 0) // false
+array.some(x => x % 2 === 0) // true
+array.every(x => typeof x === "number") // true
 {% endhighlight %}
 
 Empty array
