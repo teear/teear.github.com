@@ -172,3 +172,35 @@ let array = [1,2,3];
 
 let value = array.reduceRight((accumulator, currentvalue) => accumulator + currentvalue.toString()); // "321" 
 {% endhighlight %}
+
+
+every() and some()
+------------------
+
+every() method takes a function that tests an item in an array for a condition and returns true or false. If the condition matches every item in the array or the array is empty true is returned. some() works in a similar way: true is returned if the condition matches at least one element in the array. For empty arrays some() returns false. The functions are not called on empty elements.
+
+{% highlight javascript %}
+let array = [1,2,,3];
+
+arr.every(x => x % 2 === 0) // false
+arr.some(x => x % 2 === 0) // true
+arr.every(x => typeof x === "number") // true
+{% endhighlight %}
+
+Empty array
+
+{% highlight javascript %}
+let array = [];
+
+array.every(x => x === 5) // true
+array.some(x => x === 5) // false
+{% endhighlight %}
+
+To test if none of the elements match
+
+{% highlight javascript %}
+let array = [1,2,,3];
+
+!array.some(x => x === 5) // true
+{% endhighlight %}
+
