@@ -133,7 +133,7 @@ console.log(array); // ["bravo", "canada", "delta"];
 delete removes an item and leaves the element empty
 
 {% highlight javascript %}
-delete array[1]; // removes item at index 1 and returns true if succesful
+delete array[1]; // removes item at index 1 and returns true if successful
 console.log(array); // ["bravo",,"delta"];
 {% endhighlight %}
 
