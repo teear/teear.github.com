@@ -214,6 +214,7 @@ let array = [1,2,3,4,5,6,7,8];
 
 array.find(x => x > 5) // 6
 array.findIndex(x => x > 5) // 5
+
 array.find(x => x > 10) // undefined
 array.findIndex(x => x > 10) // -1
 {% endhighlight %}
