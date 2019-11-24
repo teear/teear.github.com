@@ -218,3 +218,25 @@ array.find(x => x > 10) // undefined
 array.findIndex(x => x > 10) // -1
 {% endhighlight %}
 
+indexOf() and lastIndexOf()
+---------------------------
+
+indexOf() method returns the index of the first item in the array that
+matches the given value. lastIndexOf() returns the index of the last item
+that matches the given value. If no item matches -1 is returned.
+
+
+{% highlight javascript %}
+let array = [1,12,33,12,55,66,12,8];
+
+array.indexOf(12) // 1
+array.lastIndexOf(12) // 6
+
+array.indexOf(1000) // -1
+array.lastIndexOf(1000) // -1
+{% endhighlight %}
+
+
+
+
+
