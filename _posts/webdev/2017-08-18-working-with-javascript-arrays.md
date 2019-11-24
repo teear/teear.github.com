@@ -204,3 +204,17 @@ let array = [1,2,,3];
 !array.some(x => x === 5) // true
 {% endhighlight %}
 
+find() and findIndex()
+----------------------
+
+find() method returns the value of the first item in an array that matches the condition provided by the callback function. findIndex() works exactly the same but instead of the value returns the index of the item.
+
+{% highlight javascript %}
+let array = [1,2,3,4,5,6,7,8];
+
+array.find(x => x > 5) // 6
+array.findIndex(x => x > 5) // 5
+array.find(x => x > 10) // undefined
+array.findIndex(x => x > 10) // -1
+{% endhighlight %}
+
