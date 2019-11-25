@@ -267,3 +267,17 @@ array.join('') // "12345"
 array.join('-') // "1-2-3-4-5"
 {% endhighlight %}
 
+toString()
+----------
+
+toString() returns a string representation of the array.
+It does not mutate the original array. toString() does not take any arguments.
+{% highlight javascript %}
+let array = [1,2,3,4,5,"six"];
+let array2 = [undefined, null, [], {}]
+
+array.toString() // "1,2,3,4,5,six"
+array2.toString() // ",,,[object Object]"
+{% endhighlight %}
+
+
