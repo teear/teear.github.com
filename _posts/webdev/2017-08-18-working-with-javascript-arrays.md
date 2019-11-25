@@ -280,4 +280,27 @@ array.toString() // "1,2,3,4,5,six"
 array2.toString() // ",,,[object Object]"
 {% endhighlight %}
 
+reverse()
+---------
+
+reverse() method reverses an array in place and returns a reference to the array. It does not take any arguments.
+
+{% highlight javascript %}
+let array = [1,2,3,4,5];
+
+array.reverse() // "5,4,3,2,1"
+console.log(array) // "5,4,3,2,1"
+{% endhighlight %}
+
+If you do not wish to mutate the original array, you can create a copy of
+the original with slice()
+
+{% highlight javascript %}
+let array = [1,2,3,4,5];
+
+array.slice().reverse() // "5,4,3,2,1"
+console.log(array) // "1,2,3,4,5"
+{% endhighlight %}
+
+Note that slice() makes only a shallow copy of the array.
 
