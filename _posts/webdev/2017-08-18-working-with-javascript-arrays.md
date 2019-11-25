@@ -274,10 +274,10 @@ toString() returns a string representation of the array.
 It does not mutate the original array. toString() does not take any arguments.
 {% highlight javascript %}
 let array = [1,2,3,4,5,"six"];
-let array2 = [undefined, null, [], {}]
+let array2 = [undefined, null, [], {}, function(){ return 'Hello'; }]
 
 array.toString() // "1,2,3,4,5,six"
-array2.toString() // ",,,[object Object]"
+array2.toString() // ",,,[object Object], function(){ return 'Hello'; }"
 {% endhighlight %}
 
 reverse()
