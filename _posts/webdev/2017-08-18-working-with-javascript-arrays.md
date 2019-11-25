@@ -177,7 +177,7 @@ let value = array.reduceRight((accumulator, currentvalue) => accumulator + curre
 every() and some()
 ------------------
 
-every() method takes a function that tests an item in an array for a condition and returns true or false. If the condition matches every item in the array or the array is empty true is returned. some() works in a similar way: true is returned if the condition matches at least one element in the array. For empty arrays some() returns false. The functions are not called on empty elements.
+every() method takes a function that tests the items in the array for a condition and returns true or false for each item. If the condition matches every item in the array or the array is empty true is returned. some() works in a similar way: true is returned if the condition matches at least one element in the array. For empty arrays some() returns false. The functions are not called on empty elements.
 
 {% highlight javascript %}
 let array = [1,2,,3];
@@ -207,7 +207,7 @@ let array = [1,2,,3];
 find() and findIndex()
 ----------------------
 
-find() method returns the value of the first item in an array that matches the condition provided by the callback function. findIndex() works exactly the same but instead of the value returns the index of the item.
+find() method returns the value of the first item in the array that matches the condition provided by the callback function. findIndex() works the same but instead of the value it returns the index of the item.
 
 {% highlight javascript %}
 let array = [1,2,3,4,5,6,7,8];
