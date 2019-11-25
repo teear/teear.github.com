@@ -252,7 +252,18 @@ array.indexOf(1000) // -1
 array.lastIndexOf(1000) // -1
 {% endhighlight %}
 
+join()
+------
 
+join() method joins all the items in the array and returns the result as a string. It does not mutate the original array.
+join() takes one argument which is a string that separates the items
+in the returned value. The items are separated with commas by default if no argument is given.
 
+{% highlight javascript %}
+let array = [1,2,3,4,5];
 
+array.join() // "1,2,3,4,5"
+array.join('') // "12345"
+array.join('-') // "1-2-3-4-5"
+{% endhighlight %}
 
