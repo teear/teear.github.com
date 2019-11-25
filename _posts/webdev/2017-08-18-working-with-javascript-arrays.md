@@ -219,6 +219,21 @@ array.find(x => x > 10) // undefined
 array.findIndex(x => x > 10) // -1
 {% endhighlight %}
 
+includes()
+----------
+
+includes() method is used to check if an array contains the given value. It only takes one argument which is the value that is checked.
+
+{% highlight javascript %}
+let array = [1,2,3,4,5,"six","seven"];
+
+array.includes(1) // true
+array.includes(10) // false
+
+array.includes("six") // true
+array.includes("eight") // false
+{% endhighlight %}
+
 indexOf() and lastIndexOf()
 ---------------------------
 
