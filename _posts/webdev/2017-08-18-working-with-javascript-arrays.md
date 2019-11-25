@@ -149,6 +149,19 @@ array.flat() // [1,2,3,4,5,6,7,[8,9]]
 array.flat(2) // [1, 2, 3, 4, 5, 6, 7, 8, 9]
 {% endhighlight %}
 
+flatMap()
+---------
+
+The flatMap() method is identical to a map() followed by a flat() of depth 1.
+
+{% highlight javascript %}
+let array = ["Hello", "world"];
+
+array.map (x => x.split('')) // [['H', 'e', 'l', 'l', 'o'], ['w', 'o', 'r', 'l', 'd']]
+
+array.flatMap(x => x.split('')) // ['H', 'e', 'l', 'l', 'o', 'w', 'o', 'r', 'l', 'd']
+{% endhighlight %}
+
 map(), filter() and reduce()
 ----------------------------
 
