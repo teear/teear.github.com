@@ -137,6 +137,18 @@ delete array[1]; // removes item at index 1 and returns true if successful
 console.log(array); // ["bravo",,"delta"];
 {% endhighlight %}
 
+flat()
+------
+
+The flat() method flattens an array and returns a new array. If the array contains empty slots, those are removed. It does not mutate the original array. It takes one parameter which is the depth and if no parameter is given the default depth of 1 is used.
+
+{% highlight javascript %}
+let array = [1,,,2,[3,4],5,[6,7,[8,9]]];
+
+array.flat() // [1,2,3,4,5,6,7,[8,9]]
+array.flat(2) // [1, 2, 3, 4, 5, 6, 7, 8, 9]
+{% endhighlight %}
+
 map(), filter() and reduce()
 ----------------------------
 
