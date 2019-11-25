@@ -255,7 +255,7 @@ array.lastIndexOf(1000) // -1
 join()
 ------
 
-join() method joins all the items in the array and returns the result as a string. It does not mutate the original array.
+join() method joins all the items in the array and returns the result as a string. It does not mutate the original array. If the item is undefined, null or an empty array [] it is converted to an empty string.
 join() takes one argument which is a string that separates the items
 in the returned value. The items are separated with commas by default if no argument is given.
 
