@@ -53,7 +53,7 @@ let s = new Set(['alfa', 'bravo']);
 Array.from(s); // ["alfa", "bravo"] 
 {% endhighlight %}
 
-You can also create associative arrays by using a named index:
+Javascript does not have associative arrays, if you are using a named indexyou are setting or accessing a variable associated with that array's object property collection which is separate from the list of array elements. You cannot use array's traversal and mutation operations with these named properties.
 
 {% highlight javascript %}
 let assoc = [];
