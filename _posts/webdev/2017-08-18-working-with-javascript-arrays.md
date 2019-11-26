@@ -53,6 +53,13 @@ let s = new Set(['alfa', 'bravo']);
 Array.from(s); // ["alfa", "bravo"] 
 {% endhighlight %}
 
+Here we are creating a new array with only unique values
+
+{% highlight javascript %}
+let array = ["alfa", "bravo", "alfa", "charlie", "alfa", "delta"];
+let array_unique = Array.from(new Set(array)); // ["alfa", "bravo", "charlie", "delta"]
+{% endhighlight %}
+
 Javascript does not have associative arrays, if you are using a named indexyou are setting or accessing a variable associated with that array's object property collection which is separate from the list of array elements. You cannot use array's traversal and mutation operations with these named properties.
 
 {% highlight javascript %}
