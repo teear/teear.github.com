@@ -145,8 +145,8 @@ The flat() method flattens an array and returns a new array. If the array contai
 {% highlight javascript %}
 let array = [1,,,2,[3,4],5,[6,7,[8,9]]];
 
-array.flat() // [1,2,3,4,5,6,7,[8,9]]
-array.flat(2) // [1, 2, 3, 4, 5, 6, 7, 8, 9]
+array.flat(); // [1,2,3,4,5,6,7,[8,9]]
+array.flat(2); // [1, 2, 3, 4, 5, 6, 7, 8, 9]
 {% endhighlight %}
 
 flatMap()
@@ -157,9 +157,9 @@ The flatMap() method is identical to a map() followed by a flat() of depth 1.
 {% highlight javascript %}
 let array = ["Hello", "world"];
 
-array.map (x => x.split('')) // [['H', 'e', 'l', 'l', 'o'], ['w', 'o', 'r', 'l', 'd']]
+array.map (x => x.split('')); // [['H', 'e', 'l', 'l', 'o'], ['w', 'o', 'r', 'l', 'd']]
 
-array.flatMap(x => x.split('')) // ['H', 'e', 'l', 'l', 'o', 'w', 'o', 'r', 'l', 'd']
+array.flatMap(x => x.split('')); // ['H', 'e', 'l', 'l', 'o', 'w', 'o', 'r', 'l', 'd']
 {% endhighlight %}
 
 map(), filter() and reduce()
@@ -207,9 +207,9 @@ every() method takes a function that tests the items in the array for a conditio
 {% highlight javascript %}
 let array = [1,2,,3];
 
-array.every(x => x % 2 === 0) // false
-array.some(x => x % 2 === 0) // true
-array.every(x => typeof x === "number") // true
+array.every(x => x % 2 === 0); // false
+array.some(x => x % 2 === 0); // true
+array.every(x => typeof x === "number"); // true
 {% endhighlight %}
 
 Empty array
@@ -217,8 +217,8 @@ Empty array
 {% highlight javascript %}
 let array = [];
 
-array.every(x => x === 5) // true
-array.some(x => x === 5) // false
+array.every(x => x === 5); // true
+array.some(x => x === 5); // false
 {% endhighlight %}
 
 To test if none of the elements match
@@ -226,7 +226,7 @@ To test if none of the elements match
 {% highlight javascript %}
 let array = [1,2,,3];
 
-!array.some(x => x === 5) // true
+!array.some(x => x === 5); // true
 {% endhighlight %}
 
 find() and findIndex()
@@ -237,11 +237,11 @@ find() method returns the value of the first item in the array that matches the 
 {% highlight javascript %}
 let array = [1,2,3,4,5,6,7,8];
 
-array.find(x => x > 5) // 6
-array.findIndex(x => x > 5) // 5
+array.find(x => x > 5); // 6
+array.findIndex(x => x > 5); // 5
 
-array.find(x => x > 10) // undefined
-array.findIndex(x => x > 10) // -1
+array.find(x => x > 10); // undefined
+array.findIndex(x => x > 10); // -1
 {% endhighlight %}
 
 includes()
@@ -252,11 +252,11 @@ includes() method is used to check if an array contains the given value. It only
 {% highlight javascript %}
 let array = [1,2,3,4,5,"six","seven"];
 
-array.includes(1) // true
-array.includes(10) // false
+array.includes(1); // true
+array.includes(10); // false
 
-array.includes("six") // true
-array.includes("eight") // false
+array.includes("six"); // true
+array.includes("eight"); // false
 {% endhighlight %}
 
 indexOf() and lastIndexOf()
@@ -270,11 +270,11 @@ that matches the given value. If no item matches -1 is returned.
 {% highlight javascript %}
 let array = [1,12,33,12,55,66,12,8];
 
-array.indexOf(12) // 1
-array.lastIndexOf(12) // 6
+array.indexOf(12); // 1
+array.lastIndexOf(12); // 6
 
-array.indexOf(1000) // -1
-array.lastIndexOf(1000) // -1
+array.indexOf(1000); // -1
+array.lastIndexOf(1000); // -1
 {% endhighlight %}
 
 join()
@@ -287,9 +287,9 @@ in the returned value. The items are separated with commas by default if no argu
 {% highlight javascript %}
 let array = [1,2,3,4,5];
 
-array.join() // "1,2,3,4,5"
-array.join('') // "12345"
-array.join('-') // "1-2-3-4-5"
+array.join(); // "1,2,3,4,5"
+array.join(''); // "12345"
+array.join('-'); // "1-2-3-4-5"
 {% endhighlight %}
 
 toString()
@@ -299,10 +299,10 @@ toString() returns a string representation of the array.
 It does not mutate the original array. toString() does not take any arguments.
 {% highlight javascript %}
 let array = [1,2,3,4,5,"six"];
-let array2 = [undefined, null, [], {}, function(){ return 'Hello'; }]
+let array2 = [undefined, null, [], {}, function(){ return 'Hello'; }];
 
-array.toString() // "1,2,3,4,5,six"
-array2.toString() // ",,,[object Object], function(){ return 'Hello'; }"
+array.toString(); // "1,2,3,4,5,six"
+array2.toString(); // ",,,[object Object], function(){ return 'Hello'; }"
 {% endhighlight %}
 
 reverse()
@@ -313,8 +313,8 @@ reverse() method reverses an array in place and returns a reference to the array
 {% highlight javascript %}
 let array = [1,2,3,4,5];
 
-array.reverse() // "5,4,3,2,1"
-console.log(array) // "5,4,3,2,1"
+array.reverse(); // "5,4,3,2,1"
+console.log(array); // "5,4,3,2,1"
 {% endhighlight %}
 
 If you do not wish to mutate the original array, you can create a copy of
@@ -323,8 +323,8 @@ the original with slice()
 {% highlight javascript %}
 let array = [1,2,3,4,5];
 
-array.slice().reverse() // "5,4,3,2,1"
-console.log(array) // "1,2,3,4,5"
+array.slice().reverse(); // "5,4,3,2,1"
+console.log(array); // "1,2,3,4,5"
 {% endhighlight %}
 
 Note that slice() makes only a shallow copy of the array.
