@@ -8,7 +8,7 @@ image:
   creditlink: https://pixabay.com/ #url to their site or licensing
 ---
 
-Arrays in JavaScript are a special kind of object that inherits from the Array.prototype. Arrays are ordered collections of values.
+Arrays in JavaScript are a special kind of object that inherits from the Array.prototype. Arrays are ordered non-typed dynamic collections of values.
 
 Creating an array
 -----------------
