@@ -15,7 +15,7 @@ sass:
 permalink: /:categories/:title/
 markdown: kramdown
 highlighter: rouge # was pygments, must be rouge for GH Pages 16/03/2016
-gems:
+plugins:
   - jekyll-sitemap
 
 
