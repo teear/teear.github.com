@@ -4,6 +4,7 @@ title: Working with JavaScript arrays
 
 image:
   teaser: javascript-array.png
+  feature: javascript-array.png
   credit: Pixabay #name of the person or site you want to credit
   creditlink: https://pixabay.com/ #url to their site or licensing
 ---
@@ -60,11 +61,18 @@ let array = ["alfa", "bravo", "alfa", "charlie", "alfa", "delta"];
 let array_unique = Array.from(new Set(array)); // ["alfa", "bravo", "charlie", "delta"]
 {% endhighlight %}
 
-Javascript does not have associative arrays, if you are using a named indexyou are setting or accessing a variable associated with that array's object property collection which is separate from the list of array elements. You cannot use array's traversal and mutation operations with these named properties.
+Javascript does not have associative arrays, if you are using a named index you are setting or accessing a variable associated with that array's object property collection which is separate from the list of array elements. You cannot use array's traversal and mutation operations with these named properties.
 
 {% highlight javascript %}
-let assoc = [];
-assoc["alfa"] = "aarne";
+let array = [];
+array["alfa"] = "aarne";
+array[0] = "zero";
+
+console.log(array); // ["zero", alfa: "aarne"]
+
+array.forEach(el => console.log(el)); // "zero"
+
+array.length; // 1
 {% endhighlight %}
 
 Accessing elements
@@ -92,14 +100,16 @@ We have the following array
 var array = ["bravo", "charlie", "delta"];
 {% endhighlight %}
 
-We can add an element to the end of the array with push
+We can add elements to the end of the array with push. Here we are
+adding only one element but you can add as many as you wish by separating
+the values with commas.
 
 {% highlight javascript %}
 array.push("echo"); // returns number of items in the array
 console.log(array); // ["bravo", "charlie", "delta", "echo"];
 {% endhighlight %}
 
-To add an element to the start of the array you use unshift
+To add elements to the start of the array you use unshift
 
 {% highlight javascript %}
 array.unshift("alfa"); // returns number of items in the array
@@ -147,7 +157,7 @@ console.log(array); // ["bravo",,"delta"];
 flat()
 ------
 
-The flat() method flattens an array and returns a new array. If the array contains empty slots, those are removed. It does not mutate the original array. It takes one parameter which is the depth and if no parameter is given the default depth of 1 is used.
+The flat() method flattens an array and returns a new array. If the array contains empty elements, those are removed. It does not mutate the original array. It takes one parameter which is the depth and if no parameter is given the default depth of 1 is used.
 
 {% highlight javascript %}
 let array = [1,,,2,[3,4],5,[6,7,[8,9]]];
@@ -324,8 +334,7 @@ array.reverse(); // "5,4,3,2,1"
 console.log(array); // "5,4,3,2,1"
 {% endhighlight %}
 
-If you do not wish to mutate the original array, you can create a copy of
-the original with slice()
+If you do not wish to mutate the original array, you can create a shallow copy of the original with slice()
 
 {% highlight javascript %}
 let array = [1,2,3,4,5];
@@ -333,6 +342,4 @@ let array = [1,2,3,4,5];
 array.slice().reverse(); // "5,4,3,2,1"
 console.log(array); // "1,2,3,4,5"
 {% endhighlight %}
-
-Note that slice() makes only a shallow copy of the array.
 
