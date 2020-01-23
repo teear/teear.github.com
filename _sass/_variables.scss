@@ -3,7 +3,8 @@
 
 // Typography variables
 
-$base-font                   	: Georgia,Times,"Times New Roman",serif;
+//$base-font                   	: Georgia,Times,"Times New Roman",serif;
+$base-font                    : "DejaVu Serif", "Bitstream Vera Serif", "Century Schoolbook L", "Lucida Bright", Georgia, Times, "Times New Roman", serif;
 $heading-font                	: "Helvetica Neue","Segoe UI",Arial,sans-serif;
 $caption-font                	: $base-font;
 $code-font                   	: monospace;
@@ -21,11 +22,12 @@ $body-color                  	: #ebebeb;
 $text-color                  	: #313130;
 $base-color                  	: #343434;    
 $comp-color                  	: complement($base-color); 
-$border-color                	: #ddd;
+$border-color                	: #cae6fb; /* #ddd; */
 $white                       	: #fff;
 $black                       	: #000;
 $link-color                  	: #222;
-$primary-color               	: $black;
+$link-hover-color             : #f4343f;
+$primary-color               	: #a3d3f9; /* $black; */
 $success-color               	: #2ecc71;
 $warning-color               	: #f1c40f;
 $danger-color                	: #e74c3c;
