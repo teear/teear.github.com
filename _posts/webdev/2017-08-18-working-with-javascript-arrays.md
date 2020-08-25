@@ -8,7 +8,7 @@ image:
   credit: Pixabay #name of the person or site you want to credit
   creditlink: https://pixabay.com/ #url to their site or licensing
 date: 2017-08-18 0:00:00 +0000
-modified: 2020-01-03 0:00:00 +0000
+modified: 2020-08-25 0:00:00 +0000
 ---
 
 Arrays in JavaScript are a special kind of object that inherits from the Array.prototype. Arrays are ordered non-typed dynamic collections of values.
@@ -155,6 +155,34 @@ The `delete` operator removes the contents of the element and leaves the element
 delete array[1]; // removes value at index 1 and returns true if successful
 console.log(array); // ["bravo",,"delta"];
 {% endhighlight %}
+
+Making a copy of an array
+-------------------------
+
+Arrays are passed by referefence.
+
+{% highlight javascript %}
+let array = [1,2,3];
+let array2 = array;
+
+console.log(array, array2); // [1,2,3] [1,2,3]
+
+array2[2] = "three";
+
+console.log(array, array2); // [1,2,"three"] [1,2,"three"]
+{% endhighlight %}
+
+To make a copy of an array, you can use the following methods.
+
+{% highlight javascript %}
+let array = [1,2,3];
+let arrayCopy = array.slice();
+let arrayCopy2 = [].concat(array);
+let arrayCopy3 = [...array];
+let arrayCopy4 = Array.from(array);
+{% endhighlight %}
+
+If you now change the original array the copies are not affected.
 
 Array properties
 ----------------
